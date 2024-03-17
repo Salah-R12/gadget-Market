@@ -493,7 +493,7 @@ if ( ! function_exists( 'martfury_extra_hotline' ) ) :
 				%s
 		    </li>',
 			$link_before,
-			wp_kses( $hotline_text, wp_kses_allowed_html( 'post' ) ),
+            esc_html__( $hotline_text, 'martfury' ),
 			esc_html( $hotline_number ),
 			$link_after
 		);

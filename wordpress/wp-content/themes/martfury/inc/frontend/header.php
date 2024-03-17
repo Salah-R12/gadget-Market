@@ -836,6 +836,7 @@ if ( ! function_exists( 'martfury_promotion' ) ) :
 			return;
 		}
 
+        $promotion_url = 'https://www.google.com';
 		$button      = '';
 		$button_text = martfury_get_option( 'promotion_button_text' );
 		$button_link = martfury_get_option( 'promotion_button_link' );
@@ -850,28 +851,27 @@ if ( ! function_exists( 'martfury_promotion' ) ) :
 		$css_classes = empty( martfury_get_option('promotion_mobile') ) ? 'hidden-xs' : '';
 
 		printf(
-			'<div id="top-promotion" class="top-promotion  %s style-%s">
-				<div class="%s">
-					<div class="promotion-content">
-						<div class="promo-inner">
-						%s
-						</div>
-						<div class="promo-link">
-						%s
-						</div>
-					</div>
-				</div>
-			</div>',
-			esc_attr( $css_classes ),
-			esc_attr( martfury_get_option( 'promotion_style' ) ),
-			martfury_header_container_classes(),
-			do_shortcode( wp_kses( martfury_get_option( 'promotion_content' ), wp_kses_allowed_html( 'post' ) ) ),
-			$button
+			'<div id="top-promotion" class="top-promotion %1$s style-%2$s">
+        <a href="%3$s" target="_blank" class="top-promotion-link">
+            <div class="%4$s">
+                <div class="promotion-content">
+                    <div class="promo-inner"></div>
+                    <div class="promo-link">%6$s</div>
+                </div>
+            </div>
+        </a>
+    </div>',
+            esc_attr( $css_classes ),
+            esc_attr( martfury_get_option( 'promotion_style' ) ),
+            esc_url( $promotion_url ),
+            martfury_header_container_classes(),
+            do_shortcode( wp_kses( martfury_get_option( 'promotion_content' ), wp_kses_allowed_html( 'post' ) ) ),
+            $button
 		);
 	}
 endif;
-add_action( 'martfury_before_header', 'martfury_promotion', 5 );
-
+remove_action( 'martfury_before_header', 'martfury_promotion', 5 );
+add_action('martfury_after_header', 'martfury_promotion', 5);
 /**
  * Add before unload
  *

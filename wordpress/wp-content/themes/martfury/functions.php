@@ -229,7 +229,10 @@ if ( defined( 'ICL_SITEPRESS_VERSION' ) && ! ICL_PLUGIN_INACTIVE ) {
 	require get_template_directory() . '/inc/wpml.php';
 }
 
-function martfury_custom_enqueue_styles() {
-    wp_enqueue_style('martfury-custom-style', get_stylesheet_uri(), array(), '1.3');
+function theme_prefix_setup() {
+    // Charger le style RTL pour les langues RTL.
+    if (is_rtl()) {
+        wp_enqueue_style('theme-rtl', get_template_directory_uri() . '/rtl.css');
+    }
 }
-add_action('wp_enqueue_scripts', 'martfury_custom_enqueue_styles');
+add_action('wp_enqueue_scripts', 'theme_prefix_setup');

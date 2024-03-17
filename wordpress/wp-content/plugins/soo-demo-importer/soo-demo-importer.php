@@ -5,7 +5,7 @@
  * Description: One click import demo content
  * Author: SooThemes
  * Author URI: http://soothemes.com
- * Version: 2.1
+ * Version: 2.2
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

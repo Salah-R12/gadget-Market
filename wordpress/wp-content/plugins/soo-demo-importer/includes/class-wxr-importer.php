@@ -1785,6 +1785,17 @@ class WXR_Importer extends WP_Importer {
 			$termdata[ $key ] = $data[ $key ];
 		}
 
+		if ( empty( $data['parent'] ) ) {
+			$parent = 0;
+		} else {
+			$parent = term_exists( $data['parent'], $data['taxonomy'] );
+			if ( is_array( $parent ) ) {
+				$parent = $parent['term_id'];
+			}
+		}
+
+		$termdata['parent'] = (int) $parent;
+
 		$result = wp_insert_term( $data['name'], $data['taxonomy'], $termdata );
 		if ( is_wp_error( $result ) ) {
 			$this->logger->warning( sprintf(
@@ -1807,6 +1818,20 @@ class WXR_Importer extends WP_Importer {
 		}
 
 		$term_id = $result['term_id'];
+
+		if( isset($data['termmeta'])  && ! empty($data['termmeta']) ) {
+			foreach ( $data['termmeta'] as $meta ) {
+				$key = $meta['key'];
+				if ( ! $key ) {
+					continue;
+				}
+
+				// Export gets meta straight from the DB so could have a serialized string
+				$value = maybe_unserialize( $meta['value'] );
+
+				add_term_meta( $term_id, wp_slash( $key ), wp_slash_strings_only( $value ) );
+			}
+		}
 
 		// Now prepare to map this new term.
 		$this->mapping['term'][ $mapping_key ] = $term_id;

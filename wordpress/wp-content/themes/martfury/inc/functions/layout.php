@@ -63,7 +63,7 @@ endif;
 if ( ! function_exists( 'martfury_get_content_columns' ) ) :
 	function martfury_get_content_columns( $layout = null ) {
 		$layout  = $layout ? $layout : martfury_get_layout();
-		$classes = array( 'col-md-12', 'col-sm-12', 'col-xs-12' );
+		$classes = array( 'col-md-9', 'col-sm-12', 'col-xs-12' );
 
 		if ( ! in_array( $layout, array( 'sidebar-content', 'content-sidebar', 'small-thumb' ) ) ) {
 			$classes = array( 'col-md-12' );

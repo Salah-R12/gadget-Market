@@ -1,0 +1,2676 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Martfury\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-13 07:53+0000\n"
+"PO-Revision-Date: 2024-03-10 21:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3"
+
+#: inc/functions/entry.php:32
+msgid " by "
+msgstr " بواسطة "
+
+#: inc/functions/entry.php:42
+#, php-format
+msgid " in %s"
+msgstr " في %s"
+
+#: woocommerce/content-mini-cart.php:10
+msgid " product was successfully added to your cart"
+msgstr "تم إضافة المنتج بنجاح إلى سلتك"
+
+#: woocommerce/content-mini-cart.php:8
+msgid " products were successfully added to your cart"
+msgstr "تم إضافة المنتجات بنجاح إلى سلتك"
+
+#: inc/functions/comments.php:73
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s في %2$s"
+
+#. 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:177
+#, php-format
+msgid "%1$s Review For This Product"
+msgid_plural "%1$s Reviews For This Product"
+msgstr[0] "%1$s مراجعة لهذا المنتج"
+msgstr[1] "%1$s مراجعات لهذا المنتج"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/functions/breadcrumbs.php:259 inc/functions/breadcrumbs.php:267
+#: inc/functions/breadcrumbs.php:275
+#, php-format
+msgid "%s %s"
+msgstr "%s %s"
+
+#. %s: Quantity.
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr "الكمية: %s"
+
+#: woocommerce/cart/cart-totals.php:64
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: inc/vendors/dokan.php:214 inc/vendors/dokan.php:246
+msgid "- Select a brand -"
+msgstr ""
+
+#: inc/vendors/theme-options.php:189
+msgid "3 Columns"
+msgstr "3 أعمدة"
+
+#: inc/vendors/theme-options.php:186
+msgid "4 Columns"
+msgstr "4 أعمدة"
+
+#: inc/vendors/theme-options.php:188
+msgid "5 Columns"
+msgstr "5 أعمدة"
+
+#: inc/vendors/theme-options.php:187
+msgid "6 Columns"
+msgstr "6 أعمدة"
+
+#: woocommerce/myaccount/form-login.php:150
+msgid "A password will be sent to your email address."
+msgstr "سيتم إرسال كلمة المرور إلى عنوان بريدك الإلكتروني."
+
+#: inc/mobile/theme-options.php:238 inc/mobile/theme-options.php:458
+#: inc/mobile/theme-options.php:604
+msgid "Account"
+msgstr "الحساب"
+
+#: inc/functions/header.php:268
+msgid "Account Settings"
+msgstr "إعدادات الحساب"
+
+#: inc/backend/plugins.php:148
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "تفعيل الإضافة المثبتة"
+msgstr[1] "تفعيل الإضافات المثبتة"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: woocommerce/loop/add-to-wishlist.php:29
+#, php-format
+msgid "Add %s to the wishlist"
+msgstr "أضف %s إلى قائمة الأمنيات"
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:101
+msgid "Add a review"
+msgstr "أضف مراجعة"
+
+#: inc/modules/product-bought-together/frontend.php:364
+msgid "Add All To Cart"
+msgstr "أضف الكل إلى السلة"
+
+#: inc/modules/product-bought-together/frontend.php:368
+msgid "Add All To Wishlist"
+msgstr "أضف الكل إلى قائمة الأمنيات"
+
+#: wc-vendors/dashboard/links.php:7
+msgid "Add New Product"
+msgstr "أضف منتج جديد"
+
+#: inc/mobile/theme-options.php:703
+msgid "Add to cart fixed"
+msgstr "إضافة إلى سلة التسوق ثابتة"
+
+#: inc/modules/product-bought-together/frontend.php:304
+msgid "Add to Package"
+msgstr "أضف إلى الحزمة"
+
+#: woocommerce/loop/add-to-wishlist.php:32
+msgid "Add to wishlist"
+msgstr "أضف إلى قائمة الأمنيات"
+
+#: inc/backend/meta-boxes.php:352
+msgid "Add video thumbnail"
+msgstr "إضافة صورة مصغرة للفيديو"
+
+#: dokan/store-header.php:86 wc-vendors/widget/store-info.php:71
+#: dc-vendors/widget/store-info.php:62
+msgid "Address:"
+msgstr "العنوان:"
+
+#: inc/functions/entry.php:856
+msgid "All"
+msgstr "الكل"
+
+#: inc/backend/plugins.php:151
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "تم تثبيت جميع الإضافات وتفعيلها بنجاح. %s"
+
+#: inc/mega-menu/tmpl/content.php:9
+msgid "Allow HTML and Shortcodes"
+msgstr "السماح بـ HTML والشورتكود"
+
+#: inc/vendors/theme-options.php:84 inc/vendors/theme-options.php:102
+msgid "Always on display"
+msgstr "العرض دائمًا"
+
+#: inc/functions/entry.php:1169
+msgid "Apple"
+msgstr "آبل"
+
+#: woocommerce/checkout/form-coupon.php:43 woocommerce/cart/cart.php:199
+msgid "Apply coupon"
+msgstr "تطبيق الكوبون"
+
+#: inc/functions/breadcrumbs.php:24
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: inc/backend/meta-boxes.php:65
+msgid "Audio"
+msgstr "الصوت"
+
+#: inc/backend/meta-boxes.php:113
+msgid "Author"
+msgstr "المؤلف"
+
+#: inc/backend/meta-boxes.php:121
+msgid "Author URL"
+msgstr "رابط المؤلف"
+
+#: inc/functions/breadcrumbs.php:29
+msgid "Author:"
+msgstr "المؤلف:"
+
+#: woocommerce/cart/cart.php:90
+msgid "Available on backorder"
+msgstr "متاح عند الطلب"
+
+#: woocommerce/single-product-reviews.php:154
+msgid "Average"
+msgstr "متوسط"
+
+#: woocommerce/single-product-reviews.php:43
+msgid "Average Rating"
+msgstr "التقييم المتوسط"
+
+#: woocommerce/single-product/product-image.php:53
+msgid "Awaiting product image"
+msgstr "في انتظار صورة المنتج"
+
+#: inc/mobile/layout.php:468 inc/mobile/layout.php:479
+msgid "Back to"
+msgstr "العودة إلى"
+
+#: woocommerce/cart/cart.php:168
+msgid "Back To Shop"
+msgstr "العودة إلى المتجر"
+
+#: inc/mega-menu/tmpl/menus.php:5
+msgid "Background"
+msgstr "الخلفية"
+
+#: inc/mega-menu/tmpl/background.php:93
+msgid "Background Attachment"
+msgstr "مرفق الخلفية"
+
+#: inc/mega-menu/tmpl/background.php:21
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+#: inc/mobile/theme-options.php:184
+msgid "Background Horizontal"
+msgstr ""
+
+#: inc/mega-menu/tmpl/background.php:4
+msgid "Background Image"
+msgstr "صورة الخلفية"
+
+#: inc/mega-menu/tmpl/background.php:46
+msgid "Background Position"
+msgstr "موضع الخلفية"
+
+#: inc/mega-menu/tmpl/background.php:28
+msgid "Background Repeat"
+msgstr "تكرار الخلفية"
+
+#: inc/mobile/theme-options.php:203
+msgid "Background Vertical"
+msgstr ""
+
+#: inc/vendors/wcfm_vendors.php:460
+msgid "Badges"
+msgstr "شارات"
+
+#: inc/backend/product-cat.php:91 inc/backend/product-cat.php:137
+#: inc/backend/product-cat.php:191 inc/backend/product-cat.php:267
+#: inc/backend/product-cat.php:351 inc/backend/product-cat.php:405
+msgid "Banners"
+msgstr "لافتات"
+
+#: inc/backend/product-cat.php:103 inc/backend/product-cat.php:310
+msgid "Banners Link"
+msgstr "رابط اللافتات"
+
+#: woocommerce/single-product-reviews.php:101
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/backend/plugins.php:147
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "بدء تثبيت الإضافة"
+msgstr[1] "بدء تثبيت الإضافات"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/functions/entry.php:1168
+msgid "Behance"
+msgstr "بيهانس"
+
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/myaccount/my-address.php:35
+msgid "Billing address"
+msgstr "عنوان الفواتير"
+
+#: inc/functions/breadcrumbs.php:25
+msgid "Blog"
+msgstr "المدونة"
+
+#: functions.php:108
+msgid "Blog Sidebar"
+msgstr "شريط جانبي للمدونة"
+
+#: inc/mobile/theme-options.php:210 inc/mega-menu/tmpl/background.php:80
+msgid "Bottom"
+msgstr "الأسفل"
+
+#: inc/backend/meta-boxes.php:260
+msgid "Bottom Space"
+msgstr "مساحة الأسفل"
+
+#: inc/vendors/dokan.php:242 inc/backend/product-cat.php:142
+#: inc/backend/product-cat.php:356
+msgid "Brands"
+msgstr "العلامات التجارية"
+
+#: inc/vendors/theme-options.php:141
+msgid "Breadcrumb"
+msgstr "فتات الخبز"
+
+#: inc/frontend/wcboost-wishlist.php:45
+msgid "Browse"
+msgstr "تصفح"
+
+#: inc/modules/product-bought-together/frontend.php:370
+msgid "Browse Wishlist"
+msgstr "تصفح قائمة الأمنيات"
+
+#: inc/mobile/theme-options.php:370
+msgid "Button & Counter Background Color"
+msgstr "لون خلفية الزر والعداد"
+
+#: inc/mobile/theme-options.php:388
+msgid "Button & Counter Text Color"
+msgstr "لون نص الزر والعداد"
+
+#: wc-vendors/store/store-ratings.php:58
+#: woocommerce/single-product/review-meta.php:35
+msgid "by"
+msgstr "بواسطة"
+
+#: inc/vendors/theme-options.php:307 inc/vendors/theme-options.php:324
+msgid "By The Plugin"
+msgstr "بواسطة الإضافة"
+
+#: inc/vendors/theme-options.php:306 inc/vendors/theme-options.php:323
+msgid "By The Theme"
+msgstr "بواسطة الثيم"
+
+#: wc-vendors/widget/store-info.php:118 dc-vendors/widget/store-info.php:101
+msgid "Call us directly"
+msgstr "اتصل بنا مباشرةً"
+
+#: woocommerce/loop/orderby.php:79 inc/mega-menu/class-menu-edit.php:204
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: inc/mobile/theme-options.php:237 inc/mobile/theme-options.php:455
+#: inc/mobile/theme-options.php:554
+msgid "Cart"
+msgstr "عربة التسوق"
+
+#: inc/mobile/theme-options.php:559
+msgid "Cart Icon Behaviour"
+msgstr "سلوك أيقونة عربة التسوق"
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart totals"
+msgstr "إجماليات السلة"
+
+#: inc/mobile/theme-options.php:853
+msgid "Catalog"
+msgstr "الكتالوج"
+
+#: inc/vendors/theme-options.php:26
+msgid "Catalog Page"
+msgstr "صفحة الكتالوج"
+
+#: functions.php:115 inc/mobile/theme-options.php:90
+msgid "Catalog Sidebar"
+msgstr "شريط جانبي للكتالوج"
+
+#: inc/backend/product-cat.php:147 inc/backend/product-cat.php:361
+msgid "Categories Box"
+msgstr "صندوق الفئات"
+
+#: woocommerce/single-product/meta.php:47
+msgid "Categories:"
+msgstr "الفئات:"
+
+#: inc/mobile/theme-options.php:453 inc/mobile/theme-options.php:496
+#: inc/mobile/layout.php:459
+msgid "Category"
+msgstr "الفئة"
+
+#: inc/backend/product-cat.php:112 inc/backend/product-cat.php:322
+msgid "Category Layout"
+msgstr "تخطيط الفئة"
+
+#: inc/mobile/theme-options.php:508
+msgid "Category Panel Link"
+msgstr "رابط لوحة الفئة"
+
+#: inc/mobile/theme-options.php:501
+msgid "Category Panel Title"
+msgstr "عنوان لوحة الفئة"
+
+#: woocommerce/single-product/meta.php:49
+msgid "Category:"
+msgstr "الفئة:"
+
+#: inc/mobile/theme-options.php:191 inc/mobile/theme-options.php:209
+#: inc/mega-menu/tmpl/background.php:54
+msgid "Center"
+msgstr "الوسط"
+
+#: woocommerce/cart/cart-shipping.php:52
+msgid "Change address"
+msgstr "تغيير العنوان"
+
+#: inc/mobile/theme-options.php:859
+msgid "Check pages to show the recently viewed products on mobile."
+msgstr "تحقق من الصفحات لعرض المنتجات التي تم عرضها مؤخرًا على الجوال."
+
+#: inc/mobile/theme-options.php:662
+msgid "Check this option to collapse the filter on catalog sidebar."
+msgstr "حدد هذا الخيار لطي الفلتر على الشريط الجانبي للكتالوج."
+
+#: inc/mobile/theme-options.php:707
+msgid "Check this option to enable add to cart button fixed on mobile."
+msgstr "حدد هذا الخيار لتفعيل زر إضافة إلى السلة ثابت على الجوال."
+
+#: inc/mobile/theme-options.php:542
+msgid "Check this option to enable hot words below search box on mobile"
+msgstr "حدد هذا الخيار لتفعيل الكلمات الساخنة أسفل مربع البحث على الجوال"
+
+#: inc/mobile/theme-options.php:715
+msgid "Check this option to enable product sidebar on mobile."
+msgstr "حدد هذا الخيار لتفعيل الشريط الجانبي للمنتج على الجوال."
+
+#: inc/mobile/theme-options.php:723
+msgid "Check this option to enable sticky product info on the product page."
+msgstr "حدد هذا الخيار لتفعيل معلومات المنتج الثابتة على صفحة المنتج."
+
+#: inc/vendors/theme-options.php:199
+msgid "Check this option to enable the full width in the vendor dashboard."
+msgstr "حدد هذا الخيار لتفعيل العرض بالعرض الكامل في لوحة معلومات البائع."
+
+#: inc/vendors/theme-options.php:126
+msgid "Check this option to enable the full width in the vendor page."
+msgstr "حدد هذا الخيار لتفعيل العرض بالعرض الكامل في صفحة البائع."
+
+#: inc/mobile/theme-options.php:653
+msgid "Check this option to show featured icons in the product item."
+msgstr "حدد هذا الخيار لإظهار الأيقونات المميزة في عنصر المنتج."
+
+#: inc/mobile/theme-options.php:811
+msgid "Check this option to show the footer info on mobile."
+msgstr "حدد هذا الخيار لعرض معلومات التذييل على الجوال."
+
+#: inc/mobile/theme-options.php:827
+msgid "Check this option to show the footer link on mobile."
+msgstr "حدد هذا الخيار لعرض رابط التذييل على الجوال."
+
+#: inc/mobile/theme-options.php:803
+msgid "Check this option to show the footer newsletter on mobile."
+msgstr "حدد هذا الخيار لعرض النشرة الإخبارية للتذييل على الجوال."
+
+#: inc/mobile/theme-options.php:819
+msgid "Check this option to show the footer widgets on mobile."
+msgstr "حدد هذا الخيار لعرض ويدجت التذييل على الجوال."
+
+#: inc/mobile/theme-options.php:441
+msgid ""
+"Check this option to show the navigation buttons in the bottom of the page."
+msgstr "حدد هذا الخيار لعرض أزرار التنقل في أسفل الصفحة."
+
+#: inc/mobile/theme-options.php:737
+msgid "Check this option to show the product tabs collapse on product page."
+msgstr "حدد هذا الخيار لعرض انهيار علامات التبويب للمنتج على صفحة المن"
+
+#: inc/mobile/theme-options.php:843
+msgid "Check this option to show the recently viewed products on mobile."
+msgstr "حدد هذا الخيار لعرض المنتجات التي تم عرضها مؤخرًا على الجوال."
+
+#: inc/mobile/theme-options.php:645
+msgid "Check this option to show variation images in the product item."
+msgstr "حدد هذا الخيار لعرض صور الأشكال المتغيرة في عنصر المنتج."
+
+#: inc/modules/product-bought-together/product-meta.php:106
+msgid "Checked All"
+msgstr "تحقق من الكل"
+
+#: woocommerce/content-mini-cart.php:35
+msgid "Checkout"
+msgstr "الدفع"
+
+#: woocommerce/single-product/add-to-cart/variable.php:54
+msgid "Clear"
+msgstr "مسح"
+
+#: woocommerce/checkout/form-coupon.php:32
+msgid "Click here to enter your code"
+msgstr "اضغط هنا لإدخال الكود"
+
+#: woocommerce/checkout/form-login.php:28
+msgid "Click here to login"
+msgstr "اضغط هنا لتسجيل الدخول"
+
+#: inc/mobile/theme-options.php:520
+msgid "Click on menu icons"
+msgstr "اضغط على أيقونات القائمة"
+
+#: inc/mobile/theme-options.php:519
+msgid "Click on menu items"
+msgstr "اضغط على عناصر القائمة"
+
+#: woocommerce/single-product/product-image.php:76
+msgid "Click to open expanded view"
+msgstr "اضغط لفتح العرض الموسع"
+
+#: inc/mega-menu/class-menu-edit.php:186 inc/mobile/theme-options.php:671
+#: inc/mobile/theme-options.php:746 template-parts/mobile/cart.php:24
+msgid "Close"
+msgstr "إغلاق"
+
+#: inc/frontend/footer.php:192
+msgid "Close (Esc)"
+msgstr "إغلاق (Esc)"
+
+#: inc/mobile/theme-options.php:666 inc/mobile/theme-options.php:741
+msgid "Collapse Status"
+msgstr "حالة الطي"
+
+#. Name of the template
+msgid "Coming Soon Page"
+msgstr "صفحة قريبًا"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#. 1: number of comments, 2: post title
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%s Comments"
+msgstr ""
+
+#. %s: post title
+#: comments.php:36
+msgctxt "comments title"
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: woocommerce/loop/add-to-compare.php:27
+#: woocommerce/loop/add-to-compare.php:30 inc/mobile/theme-options.php:235
+#: inc/mobile/theme-options.php:457 inc/mobile/theme-options.php:591
+msgid "Compare"
+msgstr "مقارنة"
+
+#: woocommerce/loop/add-to-compare.php:26
+#, php-format
+msgid "Compare %s"
+msgstr "مقارنة %s"
+
+#: inc/backend/plugins.php:62
+msgid "Contact Form 7"
+msgstr "نموذج الاتصال 7"
+
+#: comments.php:82
+msgid "Content"
+msgstr "المحتوى"
+
+#: inc/functions/entry.php:107
+#, php-format
+msgid "Continue reading &quot;%s&quot;"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:39 woocommerce/cart/cart.php:197
+msgid "Coupon code"
+msgstr "كود الكوبون"
+
+#: woocommerce/cart/cart.php:195
+msgid "Coupon Discount"
+msgstr "خصم الكوبون"
+
+#: inc/mega-menu/tmpl/background.php:60 inc/mega-menu/tmpl/background.php:83
+msgid "Custom"
+msgstr "مخصص"
+
+#: inc/vendors/wcfm_vendors.php:471 inc/backend/product-meta-box-data.php:123
+msgid "Custom Badge Text"
+msgstr "نص شارة مخصص"
+
+#: inc/vendors/theme-options.php:288
+msgid "Custom Fields"
+msgstr "حقول مخصصة"
+
+#: inc/mobile/theme-options.php:284
+msgid "Custom Header Skin"
+msgstr "جلد رأس مخ"
+
+#: inc/backend/meta-boxes.php:194
+msgid "Custom Layout"
+msgstr "تخطيط مخصص"
+
+#: inc/backend/meta-boxes.php:222
+msgid "Custom Page Header"
+msgstr "رأس صفحة مخصص"
+
+#: inc/backend/product-cat.php:226 inc/backend/product-cat.php:452
+msgid "Custom Sidebar"
+msgstr "شريط جانبي مخصص"
+
+#: inc/backend/meta-boxes.php:153
+msgid "Custom Style"
+msgstr "أسلوب مخصص"
+
+#: inc/vendors/theme-options.php:115
+msgid "Custom Vendor Logged Link"
+msgstr "رابط تسجيل دخول البائع مخصص"
+
+#: wc-vendors/store/store-ratings.php:25
+msgid "Customer Ratings"
+msgstr "تقييمات العملاء"
+
+#: inc/functions/breadcrumbs.php:30
+msgid "Daily:"
+msgstr "يوميًا:"
+
+#: wc-vendors/dashboard/links.php:2 inc/functions/header.php:180
+#: inc/functions/header.php:193 inc/functions/header.php:204
+#: inc/functions/header.php:266
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: inc/vendors/theme-options.php:226
+msgid "Dashboard Layout"
+msgstr "تخطيط لوحة التحكم"
+
+#: inc/frontend/header.php:118
+msgid "days"
+msgstr "أيام"
+
+#: inc/backend/product-cat.php:48 inc/backend/product-cat.php:54
+#: inc/backend/meta-boxes.php:286 inc/backend/meta-boxes.php:297
+msgid "Default"
+msgstr "الافتراضي"
+
+#: inc/vendors/theme-options.php:232
+msgid "Default by the plugin"
+msgstr "الافتراضي بواسطة الإضافة"
+
+#: inc/vendors/theme-options.php:231
+msgid "Default by the theme"
+msgstr "الافتراضي بواسطة الثيم"
+
+#: inc/backend/product-cat.php:97 inc/backend/product-cat.php:289
+#: inc/backend/product-cat.php:303
+msgid "Delete"
+msgstr "حذف"
+
+#: inc/backend/product-cat.php:96 inc/backend/product-cat.php:289
+#: inc/backend/product-cat.php:302
+msgid "Delete image"
+msgstr "حذف الصورة"
+
+#: inc/backend/meta-boxes.php:81
+msgid "Description"
+msgstr "الوصف"
+
+#: inc/functions/entry.php:1165
+msgid "Deviantart"
+msgstr "ديفيانت آرت"
+
+#: inc/modules/product-bought-together/product-meta.php:97
+msgid "Discount"
+msgstr "خصم"
+
+#: inc/vendors/theme-options.php:83 inc/vendors/theme-options.php:101
+msgid "Display after on hover"
+msgstr "العرض بعد التمرير"
+
+#: inc/backend/meta-boxes.php:183
+msgid "Display Settings"
+msgstr "إعدادات العرض"
+
+#: inc/vendors/theme-options.php:85
+msgid "Display vendor profile"
+msgstr "عرض ملف البائع"
+
+#: inc/frontend/footer.php:371
+msgid "Don't show this popup again"
+msgstr "لا تظهر هذا النافذة المنبثقة مرة أخرى"
+
+#. Author of the theme
+msgid "DrFuri"
+msgstr "دكتور فوري"
+
+#: inc/functions/entry.php:1159
+msgid "Dribbble"
+msgstr "دريبل"
+
+#: woocommerce/myaccount/my-address.php:62 inc/functions/comments.php:86
+msgid "Edit"
+msgstr "تحرير"
+
+#: inc/vendors/dokan.php:158
+msgid "Edit Account"
+msgstr "تعديل الحساب"
+
+#: wc-vendors/dashboard/links.php:8
+msgid "Edit Products"
+msgstr "تعديل المنتجات"
+
+#: inc/backend/plugins.php:110
+msgid "Elementor Page Builder"
+msgstr "منشئ صفحات إليمنتور"
+
+#: inc/backend/product-cat.php:127 inc/backend/product-cat.php:340
+msgid "Elements"
+msgstr "العناصر"
+
+#: woocommerce/single-product-reviews.php:121 inc/frontend/entry.php:198
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: woocommerce/myaccount/form-login.php:133
+msgid "Email address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: dokan/store-header.php:108
+msgid "Email:"
+msgstr "البريد الإلكتروني:"
+
+#: inc/mobile/theme-options.php:538
+msgid "Enable Hot Words"
+msgstr "تفعيل الكلمات الساخنة"
+
+#: inc/vendors/wcfm_vendors.php:482 inc/backend/product-meta-box-data.php:131
+msgid ""
+"Enable to set this product as a new product. A \"New\" badge will be added "
+"to this product."
+msgstr ""
+"تفعيل لتحديد هذا المنتج كمنتج جديد. سيتم إضافة شارة \"جديد\" لهذا المنتج."
+
+#: woocommerce/cart/cart-shipping.php:85
+msgid "Enter a different address"
+msgstr "أدخل عنوانًا مختلفًا"
+
+#: inc/backend/product-cat.php:106 inc/backend/product-cat.php:315
+msgid "Enter links for each banner here. Divide links with linebreaks (Enter)."
+msgstr "أدخل روابط لكل لافتة هنا. قسّم الروابط بفواصل سطرية (Enter)."
+
+#: inc/backend/product-meta-box-data.php:124
+msgid "Enter this optional to show your badges."
+msgstr "أدخل هذا الخيار لعرض شاراتك."
+
+#: inc/backend/meta-boxes.php:344
+msgid ""
+"Enter URL of Youtube or Vimeo or specific filetypes such as mp4, webm, ogv."
+msgstr "أدخل رابط Youtube أو Vimeo أو أنواع ملفات محددة مثل mp4، webm، ogv."
+
+#: woocommerce/cart/cart-shipping.php:64
+msgid "Enter your address to view shipping options."
+msgstr "أدخل عنوانك لعرض خيارات الشحن."
+
+#: inc/backend/product-meta-box-data.php:74
+msgid "Extra"
+msgstr "إضافي"
+
+#: inc/functions/entry.php:1150
+msgid "Facebook"
+msgstr "فيسبوك"
+
+#: inc/backend/product-cat.php:174 inc/backend/product-cat.php:388
+msgid "Featured Categories"
+msgstr "الفئات المميزة"
+
+#: inc/mobile/theme-options.php:615 inc/mobile/theme-options.php:881
+#: inc/mobile/theme-options.php:890
+msgid "Filter"
+msgstr "تصفية"
+
+#: inc/mobile/theme-options.php:658
+msgid "Filter Collapse"
+msgstr "طي الفلتر"
+
+#: inc/mobile/theme-options.php:622
+msgid "Filter Panel Title"
+msgstr "عنوان لوحة الفلتر"
+
+#: inc/mobile/layout.php:362
+msgid "Filter Products"
+msgstr "تصفية المنتجات"
+
+#: inc/mobile/theme-options.php:690
+msgid "Filter Products Status"
+msgstr "حالة تصفية المنتجات"
+
+#: inc/mobile/theme-options.php:888
+msgid "Filter Text"
+msgstr "نص الفلتر"
+
+#: dokan/global/seller-registration-form.php:16
+msgid "First Name"
+msgstr "الاسم الأول"
+
+#: inc/mega-menu/tmpl/background.php:100
+msgid "Fixed"
+msgstr "ثابت"
+
+#: inc/functions/entry.php:1154
+msgid "Flickr"
+msgstr "فليكر"
+
+#: dokan/store-header.php:170 wc-vendors/widget/store-info.php:79
+#: dc-vendors/widget/store-info.php:70
+msgid "Follow us on social"
+msgstr "تابعونا على وسائل التواصل الاجتماعي"
+
+#: inc/mega-menu/tmpl/icon.php:17
+msgid "Font Icon"
+msgstr "أيقونة الخط"
+
+#: functions.php:126 inc/mobile/theme-options.php:112
+msgid "Footer"
+msgstr "تذييل"
+
+#: inc/backend/meta-boxes.php:292
+msgid "Footer Container"
+msgstr "حاوية التذييل"
+
+#: inc/mobile/theme-options.php:809
+msgid "Footer Info"
+msgstr "معلومات التذييل"
+
+#: inc/mobile/theme-options.php:825
+msgid "Footer Link"
+msgstr "رابط التذييل"
+
+#: functions.php:117
+msgid "Footer Links"
+msgstr "روابط التذييل"
+
+#: inc/mobile/theme-options.php:801
+msgid "Footer Newsletter"
+msgstr "نشرة التذييل الإخبارية"
+
+#: inc/mobile/theme-options.php:817
+msgid "Footer Widgets"
+msgstr "ويدجتس التذييل"
+
+#: woocommerce/myaccount/form-login.php:95
+msgid "Forgot your password?"
+msgstr "نسيت كلمة المرور؟"
+
+#: inc/backend/meta-boxes.php:45
+msgid "Format Details"
+msgstr "تفاصيل الصيغة"
+
+#: inc/vendors/theme-options.php:295 inc/vendors/wcfm_vendors.php:343
+#: inc/vendors/dc_vendors.php:203
+#: inc/modules/product-bought-together/product-meta.php:54
+msgid "Frequently Bought Together"
+msgstr "المشتريات المتكررة معاً"
+
+#: wc-vendors/dashboard/date-picker.php:4
+msgid "From:"
+msgstr "من:"
+
+#. Name of the template
+#: inc/vendors/theme-options.php:122 inc/vendors/theme-options.php:195
+#: inc/backend/meta-boxes.php:288 inc/backend/meta-boxes.php:299
+msgid "Full Width"
+msgstr "عرض كامل"
+
+#: inc/backend/meta-boxes.php:59
+msgid "Gallery"
+msgstr "معرض"
+
+#: inc/mobile/theme-options.php:41 inc/mega-menu/tmpl/menus.php:13
+#: inc/mega-menu/tmpl/menus.php:20
+msgid "General"
+msgstr "عام"
+
+#: inc/mobile/theme-options.php:773
+msgid "Go Back Button"
+msgstr "زر العودة"
+
+#: inc/mobile/theme-options.php:785
+msgid "Go Back to Previous Page"
+msgstr "العودة إلى الصفحة السابقة"
+
+#: inc/mobile/theme-options.php:167
+msgid ""
+"Go to Appearance > Widgets > Topbar Left and Topbar Right to add widgets "
+"content."
+msgstr ""
+"اذهب إلى المظهر > الويدجتس > شريط أعلى اليسار وشريط أعلى اليمين لإضافة محتوى "
+"الويدجتس."
+
+#: woocommerce/single-product-reviews.php:153
+msgid "Good"
+msgstr "جيد"
+
+#: inc/functions/entry.php:1152
+msgid "Google"
+msgstr "جوجل"
+
+#: inc/vendors/theme-options.php:169
+msgid "Grid"
+msgstr "شبكة"
+
+#: inc/backend/meta-boxes.php:318
+msgid "H1"
+msgstr "H1"
+
+#: inc/backend/meta-boxes.php:319
+msgid "H2"
+msgstr "H2"
+
+#: inc/backend/meta-boxes.php:320
+msgid "H3"
+msgstr "H3"
+
+#: inc/backend/meta-boxes.php:321
+msgid "H4"
+msgstr "H4"
+
+#: inc/backend/meta-boxes.php:322
+msgid "H5"
+msgstr "H5"
+
+#: inc/backend/meta-boxes.php:323
+msgid "H6"
+msgstr "H6"
+
+#: inc/frontend/header.php:193
+msgid "has been added to your cart."
+msgstr "تمت إضافته إلى سلة التسوق."
+
+#: inc/frontend/header.php:209
+msgid "has been added to your wishlist."
+msgstr "تمت إضافته إلى قائمة الأمنيات."
+
+#: woocommerce/checkout/form-coupon.php:32
+msgid "Have a coupon?"
+msgstr "لديك كوبون؟"
+
+#: inc/frontend/header.php:194
+msgid "have been added to your cart."
+msgstr "تمت إضافتها إلى سلة التسوق."
+
+#: inc/frontend/header.php:210
+msgid "have been added to your wishlist."
+msgstr ""
+
+#: inc/mobile/theme-options.php:69
+msgid "Header"
+msgstr "الرأس"
+
+#: inc/vendors/theme-options.php:19
+msgid "Header Account"
+msgstr "حساب الرأس"
+
+#: inc/mobile/theme-options.php:334
+msgid "Header Background Color"
+msgstr "لون خلفية الرأس"
+
+#: functions.php:112
+msgid "Header Bar"
+msgstr "شريط الرأس"
+
+#: inc/mobile/theme-options.php:270
+msgid "Header Bottom"
+msgstr "أسفل الرأس"
+
+#: inc/backend/meta-boxes.php:281
+msgid "Header Container"
+msgstr "حاوية الرأس"
+
+#: inc/mobile/theme-options.php:229
+msgid "Header Elements"
+msgstr ""
+
+#: inc/mobile/theme-options.php:760
+msgid "Header Layout"
+msgstr "تخطيط الرأس"
+
+#: inc/mobile/theme-options.php:352
+msgid "Header Text Color"
+msgstr "لون نص الرأس"
+
+#: inc/mobile/theme-options.php:269
+msgid "Header Top"
+msgstr "أعلى الرأس"
+
+#: inc/functions/header.php:134
+msgid "Hello,"
+msgstr "مرحبا،"
+
+#: inc/vendors/theme-options.php:86 inc/vendors/theme-options.php:103
+msgid "Hidden"
+msgstr "مخفي"
+
+#: inc/mobile/theme-options.php:696
+msgid "Hide after selecting"
+msgstr "إخفاء بعد الاختيار"
+
+#: inc/backend/meta-boxes.php:236
+msgid "Hide Breadcrumb"
+msgstr "إخفاء فتات الخبز"
+
+#: inc/backend/meta-boxes.php:405
+msgid "Hide Navigation Menu"
+msgstr "إخفاء قائمة التنقل"
+
+#: inc/backend/meta-boxes.php:229
+msgid "Hide Page Header"
+msgstr "إخفاء رأس الصفحة"
+
+#: inc/mega-menu/tmpl/general.php:16
+msgid "Hide Text"
+msgstr "إخفاء النص"
+
+#: inc/backend/meta-boxes.php:243
+msgid "Hide Title"
+msgstr "إخفاء العنوان"
+
+#: inc/mobile/theme-options.php:452 inc/mobile/theme-options.php:483
+#: inc/functions/breadcrumbs.php:23
+msgid "Home"
+msgstr "الرئيسية"
+
+#. Name of the template
+#: inc/mobile/theme-options.php:852
+msgid "HomePage"
+msgstr "الصفحة الرئيسية"
+
+#: template-parts/content-404.php:27 inc/mobile/theme-options.php:152
+msgid "Homepage"
+msgstr "الصفحة الرئيسية"
+
+#. Name of the template
+msgid "HomePage Full Width"
+msgstr "الصفحة الرئيسية بعرض كامل"
+
+#: inc/backend/meta-boxes.php:307 inc/mobile/theme-options.php:48
+msgid "Homepage Settings"
+msgstr "إعدادات الصفحة الرئيسية"
+
+#: inc/mega-menu/class-mega-menu-walker.php:376
+#: inc/mega-menu/tmpl/general.php:24
+msgid "Hot"
+msgstr "ساخن"
+
+msgid "Hotline"
+msgstr "الخط الساخن"
+
+#: inc/frontend/header.php:119
+msgid "hours"
+msgstr "ساعات"
+
+#. Author URI of the theme
+msgid "http://demo2.drfuri.com"
+msgstr "http://demo2.drfuri.com"
+
+#. URI of the theme
+msgid "http://demo2.drfuri.com/martfury"
+msgstr "http://demo2.drfuri.com/martfury"
+
+#: dokan/global/seller-registration-form.php:83
+msgid "I am a customer"
+msgstr "أنا عميل"
+
+#: dokan/global/seller-registration-form.php:90
+msgid "I am a vendor"
+msgstr "أنا بائع"
+
+#: dokan/global/seller-registration-form.php:69
+#, php-format
+msgid ""
+"I have read and agree to the <a target=\"_blank\" href=\"%s\">Terms &amp; "
+"Conditions</a>."
+msgstr ""
+"لقد قرأت وأوافق على <a target=\"_blank\" href=\"%s\">الشروط والأحكام</a>."
+
+#: inc/mega-menu/tmpl/menus.php:8 inc/mega-menu/tmpl/menus.php:15
+#: inc/mega-menu/tmpl/menus.php:18
+msgid "Icon"
+msgstr "أيقونة"
+
+#: inc/mega-menu/tmpl/icon.php:32
+msgid "Icon Color"
+msgstr "لون الأيقونة"
+
+#: inc/mega-menu/tmpl/icon.php:15
+msgid "Icon Type"
+msgstr "نوع الأيقونة"
+
+#: woocommerce/checkout/form-coupon.php:36
+msgid "If you have a coupon code, please apply it below."
+msgstr "إذا كان لديك رمز كوبون، الرجاء تطبيقه أدناه."
+
+#: woocommerce/checkout/form-login.php:34
+#, fuzzy
+#| msgid ""
+#| "If you have shopped with us before, please enter your details in the "
+#| "boxes below. If you are a new customer, please proceed to the Billing & "
+#| "Shipping section."
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+"إذا قمت بالتسوق معنا من قبل، يرجى إدخال تفاصيلك في الصناديق أدناه. إذا كنت "
+"عميلاً جديدًا، يرجى الانتقال إلى قسم الفواتير والشحن."
+
+#: inc/backend/meta-boxes.php:52
+msgid "Image"
+msgstr "صورة"
+
+#: inc/vendors/wcfm_vendors.php:433
+msgid "Images"
+msgstr "الصور"
+
+#: inc/frontend/wcboost-wishlist.php:118
+msgid "In Stock"
+msgstr "متوفر"
+
+#: inc/mobile/theme-options.php:55
+msgid "Inner Pages Settings"
+msgstr "إعدادات الصفحات الداخلية"
+
+#: inc/functions/entry.php:1161
+msgid "Instagram"
+msgstr "إنستغرام"
+
+#: inc/backend/plugins.php:136
+msgid "Install Plugins"
+msgstr "تثبيت الإضافات"
+
+#: inc/backend/plugins.php:135
+msgid "Install Required Plugins"
+msgstr "تثبيت الإضافات المطلوبة"
+
+#: inc/backend/plugins.php:137
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "جاري تثبيت الإضافة: %s"
+
+#: inc/mega-menu/tmpl/general_2.php:10
+msgid "Is Label"
+msgstr "هو تسمية"
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-404.php:26
+#, fuzzy
+#| msgid ""
+#| "It seems we can't find what you're looking for. Perhaps searching can "
+#| "help or go back to"
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help "
+"or go back to "
+msgstr ""
+"يبدو أننا لا نستطيع العثور على ما تبحث عنه. ربما يمكن أن يساعد البحث أو "
+"العودة إلى"
+
+#: inc/backend/plugins.php:23
+msgid "Kirki"
+msgstr "كيركي"
+
+#. Name of the template
+msgid "Large Container"
+msgstr "حاوية كبيرة"
+
+#: dokan/global/seller-registration-form.php:24
+msgid "Last Name"
+msgstr "الاسم الأخير"
+
+#: inc/backend/meta-boxes.php:189 inc/backend/meta-boxes.php:200
+msgid "Layout"
+msgstr "تخطيط"
+
+#: inc/backend/product-cat.php:49 inc/mobile/theme-options.php:765
+msgid "Layout 1"
+msgstr "تخطيط 1"
+
+#: inc/backend/product-cat.php:50 inc/mobile/theme-options.php:766
+msgid "Layout 2"
+msgstr "تخطيط 2"
+
+#: inc/backend/product-cat.php:51
+msgid "Layout 3"
+msgstr "تخطيط 3"
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:103
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/mobile/theme-options.php:189 inc/mega-menu/tmpl/background.php:51
+msgid "Left"
+msgstr "اليسار"
+
+#: inc/vendors/theme-options.php:260
+msgid "Left Sidebar"
+msgstr "الشريط الجانبي الأيسر"
+
+#: inc/functions/media.php:30
+msgctxt "Libre-Baskerville font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:89
+msgid "Link"
+msgstr "رابط"
+
+#: inc/functions/entry.php:1157
+msgid "LinkedIn"
+msgstr "لينكدإن"
+
+#: inc/vendors/theme-options.php:170
+msgid "List"
+msgstr "قائمة"
+
+#: woocommerce/loop/pagination.php:33 inc/functions/nav.php:32
+msgid "Loading"
+msgstr "جار التحميل"
+
+#: woocommerce/myaccount/form-login.php:54
+#: woocommerce/myaccount/form-login.php:100
+#: woocommerce/myaccount/form-login.php:100 inc/functions/header.php:158
+msgid "Log in"
+msgstr "تسجيل الدخول"
+
+#: woocommerce/myaccount/form-login.php:65
+msgid "Log In Your Account"
+msgstr "تسجيل الدخول إلى حسابك"
+
+#: inc/vendors/dokan.php:160
+msgid "Log out"
+msgstr "تسجيل الخروج"
+
+#: woocommerce/global/form-login.php:56
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: inc/mobile/theme-options.php:62 inc/mobile/theme-options.php:406
+#: inc/functions/header.php:108
+msgid "Logo"
+msgstr "شعار"
+
+#: inc/mobile/theme-options.php:421
+msgid "Logo Height(px)"
+msgstr "ارتفاع الشعار (بكسل)"
+
+#: inc/mobile/theme-options.php:427
+msgid "Logo Margin"
+msgstr "هامش الشعار"
+
+#: inc/mobile/theme-options.php:415
+msgid "Logo Width(px)"
+msgstr "عرض الشعار (بكسل)"
+
+#: inc/functions/header.php:137
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: woocommerce/myaccount/form-lost-password.php:24
+#: woocommerce/global/form-login.php:59
+msgid "Lost your password?"
+msgstr "هل نسيت كلمة المرور؟"
+
+#: inc/backend/plugins.php:69
+msgid "MailChimp for WordPress"
+msgstr "ميل تشيمب لوردبريس"
+
+#: inc/frontend/footer.php:430 inc/mobile/theme-options.php:246
+msgid "Main Menu"
+msgstr "القائمة الرئيسية"
+
+#. Name of the theme
+msgid "Martfury"
+msgstr "مارتفوري"
+
+#: inc/backend/plugins.php:44
+msgid "Martfury Addons"
+msgstr "إضافات مارتفوري"
+
+#: inc/mega-menu/tmpl/mega.php:5 inc/mega-menu/tmpl/menus.php:3
+msgid "Mega Menu"
+msgstr "القائمة الميجا"
+
+#: inc/mega-menu/tmpl/menus.php:4
+msgid "Mega Menu Background"
+msgstr "خلفية القائمة الميجا"
+
+#: inc/mega-menu/tmpl/menus.php:2
+msgid "Mega Menu Content"
+msgstr "محتوى القائمة الميجا"
+
+#: inc/mega-menu/tmpl/mega.php:11
+msgid "Mega Width"
+msgstr "عرض الميجا"
+
+#: inc/mobile/theme-options.php:239
+msgid "Menu"
+msgstr "قائمة"
+
+#: inc/mega-menu/tmpl/menus.php:10 inc/mega-menu/tmpl/menus.php:11
+msgid "Menu Content"
+msgstr "محتوى القائمة"
+
+#: inc/mega-menu/tmpl/menus.php:12 inc/mega-menu/tmpl/menus.php:19
+msgid "Menu General"
+msgstr "القائمة العامة"
+
+#: inc/mega-menu/tmpl/menus.php:7 inc/mega-menu/tmpl/menus.php:14
+#: inc/mega-menu/tmpl/menus.php:17
+msgid "Menu Icon"
+msgstr "أيقونة القائمة"
+
+#: inc/mobile/theme-options.php:244
+msgid "Menu Panel Title"
+msgstr "عنوان لوحة القائمة"
+
+#: inc/backend/plugins.php:16
+msgid "Meta Box"
+msgstr "ميتا بوكس"
+
+#: inc/mega-menu/tmpl/background.php:77
+msgid "Middle"
+msgstr "الوسط"
+
+#: inc/frontend/header.php:120
+msgid "minutes"
+msgstr "دقائق"
+
+#: inc/mobile/theme-options.php:19
+msgid "Mobile"
+msgstr "الموبايل"
+
+#: functions.php:74
+msgid "Mobile Category Menu"
+msgstr "قائمة الفئات للموبايل"
+
+#: functions.php:73
+msgid "Mobile Header Menu"
+msgstr "قائمة رأس الموبايل"
+
+#: inc/backend/meta-boxes.php:399
+msgid "Mobile Settings"
+msgstr "إعدادات الموبايل"
+
+#: inc/mobile/theme-options.php:138
+msgid "Mobile Version"
+msgstr "نسخة الموبايل"
+
+#: inc/functions/breadcrumbs.php:31
+msgid "Monthly:"
+msgstr "شهريًا:"
+
+#: inc/functions/header.php:248
+msgid "My Wishlist"
+msgstr "قائمة أمنياتي"
+
+#: woocommerce/single-product/meta.php:38
+msgid "N/A"
+msgstr "غير متاح"
+
+#: woocommerce/single-product-reviews.php:115 inc/frontend/entry.php:194
+msgid "Name"
+msgstr "الاسم"
+
+#: inc/mobile/theme-options.php:76
+msgid "Navigation"
+msgstr "التنقل"
+
+#: inc/mobile/theme-options.php:602
+msgid "Navigation Account Text"
+msgstr "نص حساب التنقل"
+
+#: inc/mobile/theme-options.php:439
+msgid "Navigation Buttons"
+msgstr "أزرار التنقل"
+
+#: inc/mobile/theme-options.php:552
+msgid "Navigation Cart Text"
+msgstr "نص سلة التنقل"
+
+#: inc/mobile/theme-options.php:494
+msgid "Navigation Category Text"
+msgstr "نص فئة التنقل"
+
+#: inc/mobile/theme-options.php:589
+msgid "Navigation Compare Text"
+msgstr "نص مقارنة التنقل"
+
+#: inc/mobile/theme-options.php:447
+msgid "Navigation Elements"
+msgstr "عناصر التنقل"
+
+#: inc/mobile/theme-options.php:481
+msgid "Navigation Home Text"
+msgstr "نص الصفحة الرئيسية للتنقل"
+
+#: inc/mobile/theme-options.php:463 inc/mobile/theme-options.php:629
+msgid "Navigation Panel Width(%)"
+msgstr "عرض لوحة التنقل (%)"
+
+#: inc/mobile/theme-options.php:531
+msgid "Navigation Search Text"
+msgstr "نص بحث التنقل"
+
+#: inc/mobile/theme-options.php:576
+msgid "Navigation Wishlist Text"
+msgstr "نص قائمة أمنيات التنقل"
+
+#: inc/mega-menu/class-mega-menu-walker.php:379
+#: inc/mega-menu/tmpl/general.php:31
+msgid "New"
+msgstr "جديد"
+
+#: inc/vendors/wcfm_vendors.php:478 inc/backend/product-meta-box-data.php:130
+msgid "New product?"
+msgstr "منتج جديد؟"
+
+#: inc/functions/nav.php:77
+msgid "Newer posts"
+msgstr "المشاركات الأحدث"
+
+#: inc/mobile/theme-options.php:145
+msgid "NewsLetter Popup"
+msgstr "نافذة النشرة الإخبارية المنبثقة"
+
+#: comments.php:68 inc/functions/nav.php:97
+msgid "Next"
+msgstr "التالي"
+
+#: inc/frontend/footer.php:221
+msgid "Next (arrow right)"
+msgstr "التالي (السهم الأيمن)"
+
+#: woocommerce/loop/pagination.php:28
+msgid "Next Page"
+msgstr "الصفحة التالية"
+
+#: inc/functions/nav.php:97
+msgid "Next Post"
+msgstr "المنشور التالي"
+
+#: woocommerce/cart/mini-cart.php:112
+msgid "No products in the cart."
+msgstr "لا توجد منتجات في السلة."
+
+#: wc-vendors/store/store-ratings.php:71
+msgid "No ratings have been submitted for this vendor yet."
+msgstr "لم يتم تقديم تقييمات لهذا البائع بعد."
+
+#: inc/mega-menu/tmpl/background.php:32
+msgid "No Repeat"
+msgstr "بدون تكرار"
+
+#. $s shipping destination.
+#: woocommerce/cart/cart-shipping.php:81
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: inc/vendors/theme-options.php:259
+msgid "No Sidebar"
+msgstr "بدون شريط جانبي"
+
+#: inc/backend/meta-boxes.php:287 inc/backend/meta-boxes.php:298
+msgid "Normal"
+msgstr "عادي"
+
+#: inc/mobile/layout.php:495 inc/functions/breadcrumbs.php:27
+msgid "Not Found"
+msgstr "غير موجود"
+
+#: woocommerce/single-product-reviews.php:155
+msgid "Not that bad"
+msgstr "ليس سيئًا لهذا الحد"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: inc/modules/product-bought-together/product-meta.php:110
+msgid "Number of items to get discount"
+msgstr "عدد العناصر للحصول على خصم"
+
+#: template-parts/content-404.php:21 template-parts/content-404.php:23
+msgid "ohh! page not found"
+msgstr "أوه! الصفحة غير موجودة"
+
+#: inc/functions/nav.php:73
+msgid "Older posts"
+msgstr "المشاركات الأقدم"
+
+#: woocommerce/single-product-reviews.php:168
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr "فقط العملاء المسجلين الذين اشتروا هذا المنتج يمكنهم ترك مراجعة."
+
+#: inc/mobile/theme-options.php:672 inc/mobile/theme-options.php:747
+msgid "Open"
+msgstr "فتح"
+
+#: inc/mobile/theme-options.php:514
+msgid "Open Submenus by"
+msgstr "فتح القوائم الفرعية بواسطة"
+
+#: inc/mobile/theme-options.php:564
+msgid "Open the cart page"
+msgstr "فتح صفحة السلة"
+
+#: inc/mobile/theme-options.php:563
+msgid "Open the cart panel"
+msgstr "فتح لوحة السلة"
+
+#: wc-vendors/widget/store-info.php:126 dc-vendors/widget/store-info.php:108
+msgid "Or contact seller via email"
+msgstr "أو الاتصال بالبائع عبر البريد الإلكتروني"
+
+#: inc/functions/header.php:182 inc/functions/header.php:195
+msgid "Orders"
+msgstr "الطلبات"
+
+#: inc/functions/header.php:270
+msgid "Orders History"
+msgstr "تاريخ الطلبات"
+
+#: inc/backend/product-cat.php:179 inc/backend/product-cat.php:393
+msgid "Other Categories"
+msgstr "فئات أخرى"
+
+#: inc/mobile/theme-options.php:857
+msgid "Other Pages"
+msgstr "صفحات أخرى"
+
+#: inc/backend/meta-boxes.php:324
+msgid "P"
+msgstr ""
+
+#: inc/mobile/theme-options.php:855
+msgid "Page"
+msgstr "صفحة"
+
+#: inc/backend/meta-boxes.php:170
+msgid "Page Header Background"
+msgstr "خلفية رأس الصفحة"
+
+#: inc/vendors/theme-options.php:136
+msgid "Page Header Element"
+msgstr "عنصر رأس الصفحة"
+
+#: inc/backend/meta-boxes.php:216
+msgid "Page Header Settings"
+msgstr "إعدادات رأس الصفحة"
+
+#: inc/frontend/entry.php:83
+msgid "Page Not Found"
+msgstr "الصفحة غير موجودة"
+
+#: functions.php:114
+msgid "Page Sidebar"
+msgstr "الشريط الجانبي للصفحة"
+
+#: inc/backend/product-cat.php:132 inc/backend/product-cat.php:159
+#: inc/backend/product-cat.php:186 inc/backend/product-cat.php:346
+#: inc/backend/product-cat.php:373 inc/backend/product-cat.php:400
+msgid "Page Title"
+msgstr ""
+
+#: template-parts/content-single.php:17 template-parts/content-page.php:16
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: woocommerce/myaccount/form-login.php:80
+#: woocommerce/myaccount/form-login.php:142
+#: woocommerce/global/form-login.php:43
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: woocommerce/single-product-reviews.php:152
+msgid "Perfect"
+msgstr "ممتاز"
+
+#: dokan/global/seller-registration-form.php:52
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#: dokan/store-header.php:97
+msgid "Phone:"
+msgstr "الهاتف:"
+
+#: inc/functions/entry.php:1158
+msgid "Pinterest"
+msgstr "بينترست"
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+"يرجى إدخال اسم المستخدم أو عنوان البريد الإلكتروني. ستتلقى رابطًا لإنشاء "
+"كلمة مرور جديدة عبر البريد الإلكتروني."
+
+#: inc/modules/product-bought-together/frontend.php:84
+msgid ""
+"Please select a purchasable variation for [name] before adding this product "
+"to the cart."
+msgstr ""
+"يرجى اختيار تنويع قابل للشراء لـ [الاسم] قبل إضافة هذا المنتج إلى السلة."
+
+#: inc/modules/product-bought-together/frontend.php:85
+msgid ""
+"Please select a purchasable variation for the selected variable products "
+"before adding them to the cart."
+msgstr ""
+
+#: inc/backend/plugins.php:150
+msgid "Plugin activated successfully."
+msgstr "تم تفعيل الإضافة بنجاح."
+
+#: inc/functions/breadcrumbs.php:28
+msgid "Portfolio"
+msgstr "محفظة"
+
+#: inc/mobile/theme-options.php:856
+msgid "Post"
+msgstr "منشور"
+
+#: inc/backend/meta-boxes.php:142
+msgid "Post Style Settings"
+msgstr "إعدادات أسلوب المنشور"
+
+#: comments.php:67 inc/functions/nav.php:96
+msgid "Previous"
+msgstr "السابق"
+
+#: inc/frontend/footer.php:217
+msgid "Previous (arrow left)"
+msgstr "السابق (السهم الأيسر)"
+
+#: woocommerce/loop/pagination.php:29
+msgid "Previous Page"
+msgstr "الصفحة السابقة"
+
+#: inc/functions/nav.php:96
+msgid "Previous Post"
+msgstr "المنشور السابق"
+
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:95
+#: inc/frontend/wcboost-wishlist.php:108
+msgid "Price"
+msgstr "السعر"
+
+#: functions.php:71
+msgid "Primary Menu"
+msgstr "القائمة الرئيسية"
+
+#: woocommerce/cart/cart.php:29 woocommerce/cart/cart.php:70
+msgid "Product"
+msgstr "المنتج"
+
+#: inc/vendors/theme-options.php:294 inc/vendors/wcfm_vendors.php:415
+#: inc/backend/meta-boxes.php:368
+msgid "Product 360 View"
+msgstr "عرض المنتج 360 درجة"
+
+#: inc/backend/product-cat.php:152 inc/backend/product-cat.php:366
+msgid "Product Carousel"
+msgstr "عرض المنتجات المتحرك"
+
+#: inc/mobile/theme-options.php:83
+msgid "Product Catalog"
+msgstr "كتالوج المنتجات"
+
+#: inc/vendors/theme-options.php:181
+msgid "Product Columns"
+msgstr "أعمدة المنتجات"
+
+#: inc/backend/meta-boxes.php:384
+msgid "Product features description"
+msgstr "وصف ميزات المنتج"
+
+#: inc/vendors/theme-options.php:210
+msgid "Product Numbers Per Page"
+msgstr "عدد المنتجات في الصفحة"
+
+#: inc/vendors/theme-options.php:47 inc/mobile/theme-options.php:104
+msgid "Product Page"
+msgstr "صفحة المنتج"
+
+#: woocommerce/global/quantity-input.php:61
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "الكمية"
+
+#: inc/mobile/theme-options.php:711
+msgid "Product Sidebar"
+msgstr "الشريط الجانبي للمنتج"
+
+#: inc/mobile/theme-options.php:733
+msgid "Product Tabs Collapse"
+msgstr "طي تبويبات المنتج"
+
+#: inc/vendors/theme-options.php:293 inc/vendors/wcfm_vendors.php:363
+#: inc/backend/meta-boxes.php:334
+msgid "Product Video"
+msgstr "فيديو المنتج"
+
+#: inc/vendors/wc_vendors.php:192 inc/functions/header.php:181
+#: inc/functions/header.php:194
+msgid "Products"
+msgstr "المنتجات"
+
+#: inc/backend/product-cat.php:169 inc/backend/product-cat.php:196
+#: inc/backend/product-cat.php:383 inc/backend/product-cat.php:410
+msgid "Products Carousel"
+msgstr "عرض المنتجات المتحرك"
+
+#: inc/vendors/theme-options.php:157
+msgid "Products Found"
+msgstr "المنتجات الموجودة"
+
+#: inc/mobile/theme-options.php:177
+msgid "Promotion"
+msgstr ""
+
+#: woocommerce/content-mini-cart.php:23
+msgid "Qty"
+msgstr "الكمية"
+
+#: woocommerce/cart/cart.php:31 woocommerce/global/quantity-input.php:28
+#: woocommerce/global/quantity-input.php:51
+msgid "Quantity"
+msgstr "الكمية"
+
+#: inc/backend/meta-boxes.php:105
+msgid "Quote"
+msgstr "اقتباس"
+
+#: woocommerce/single-product-reviews.php:151
+msgid "Rate&hellip;"
+msgstr "قيم&hellip;"
+
+#: template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "جاهز لنشر أول منشور لك؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: inc/functions/entry.php:1304 inc/functions/entry.php:1315
+msgid ""
+"Recently Viewed Products is a function which helps you keep track of your "
+"recent viewing history."
+msgstr ""
+"المنتجات التي تم عرضها مؤخراً هي وظيفة تساعدك على تتبع تاريخ عرضك الأخير."
+
+#: woocommerce/myaccount/form-login.php:58
+#: woocommerce/myaccount/form-login.php:159
+#: woocommerce/myaccount/form-login.php:159 inc/functions/header.php:142
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:112
+msgid "Register An Account"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:92 woocommerce/global/form-login.php:52
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/cart/cart.php:149 inc/mega-menu/tmpl/background.php:12
+msgid "Remove"
+msgstr ""
+
+#: inc/backend/product-cat.php:212 inc/backend/product-cat.php:434
+msgid "Remove image"
+msgstr ""
+
+#: woocommerce/cart/cart.php:129 woocommerce/cart/mini-cart.php:76
+msgid "Remove this item"
+msgstr "إزالة هذا العنصر"
+
+#: inc/mega-menu/tmpl/background.php:35
+msgid "Repeat"
+msgstr "تكرار"
+
+#: inc/mega-menu/tmpl/background.php:38
+msgid "Repeat Horizontally"
+msgstr "تكرار أفقيًا"
+
+#: inc/mega-menu/tmpl/background.php:41
+msgid "Repeat Vertically"
+msgstr "تكرار عموديًا"
+
+#: woocommerce/myaccount/form-lost-password.php:38
+msgid "Reset password"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: inc/backend/plugins.php:149
+msgid "Return to Required Plugins Installer"
+msgstr "العودة إلى مثبت الإضافات المطلوبة"
+
+#: wc-vendors/store/store-ratings.php:74
+msgid "Return to store"
+msgstr "العودة إلى المتجر"
+
+#: woocommerce/checkout/form-login.php:28
+msgid "Returning customer?"
+msgstr "عميل عائد؟"
+
+#: woocommerce/single-product/rating.php:48
+msgid "Review"
+msgstr "مراجعة"
+
+#: woocommerce/single-product-reviews.php:179
+#: woocommerce/single-product/rating.php:48 inc/vendors/wc_vendors.php:197
+msgid "Reviews"
+msgstr "المراجعات"
+
+#: inc/backend/plugins.php:81
+msgid "Revolution Slider"
+msgstr "سلايدر الثورة"
+
+#: inc/mobile/theme-options.php:190 inc/mega-menu/tmpl/background.php:57
+msgid "Right"
+msgstr "اليمين"
+
+#: inc/vendors/theme-options.php:261
+msgid "Right Sidebar"
+msgstr "الشريط الجانبي الأيمن"
+
+#: woocommerce/single-product/product-image.php:75
+msgid "Roll over image to zoom in"
+msgstr "مرر فوق الصورة للتكبير"
+
+#: inc/functions/entry.php:1164
+msgid "Rss"
+msgstr "آر إس إس"
+
+#: inc/vendors/wcfm_vendors.php:254 inc/vendors/dc_vendors.php:180
+msgid "Sale quantity"
+msgstr "كمية البيع"
+
+#: inc/mega-menu/class-menu-edit.php:202
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: inc/modules/product-bought-together/frontend.php:340
+msgid "Save: "
+msgstr "وفر: "
+
+#: inc/mega-menu/tmpl/background.php:97
+msgid "Scroll"
+msgstr "تمرير"
+
+#: inc/mobile/theme-options.php:234 inc/mobile/theme-options.php:454
+#: inc/mobile/theme-options.php:533
+msgid "Search"
+msgstr "بحث"
+
+#: inc/vendors/dc_vendors.php:207
+#: inc/modules/product-bought-together/product-meta.php:78
+msgid "Search for a product&hellip;"
+msgstr "ابحث عن منتج&hellip;"
+
+#: inc/mega-menu/tmpl/icon.php:46
+msgid "Search Icon"
+msgstr "أيقونة البحث"
+
+#: inc/frontend/entry.php:81
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#: inc/functions/breadcrumbs.php:26
+msgid "Search results for"
+msgstr "نتائج البحث عن"
+
+#: inc/vendors/wc_vendors.php:204
+msgid "Search this shop"
+msgstr "ابحث في هذا المتجر"
+
+#: template-parts/mobile/search.php:37
+msgid "Search Trending"
+msgstr "البحث عن الاتجاهات"
+
+#: inc/frontend/header.php:121
+msgid "seconds"
+msgstr "ثواني"
+
+#: inc/vendors/theme-options.php:257
+msgid "Select default layout for vendor page."
+msgstr "اختر التخطيط الافتراضي لصفحة البائع."
+
+#: inc/mega-menu/tmpl/background.php:14
+msgid "Select Image"
+msgstr "اختر صورة"
+
+#: inc/vendors/dokan.php:227 inc/vendors/dokan.php:259
+msgid "Select product brand"
+msgstr "اختر علامة المنتج التجارية"
+
+#: inc/modules/product-bought-together/product-meta.php:75
+msgid "Select Products"
+msgstr "اختر المنتجات"
+
+#: inc/modules/product-bought-together/product-meta.php:94
+msgid "Select products for \"Frequently bought together\" group."
+msgstr "اختر المنتجات لمجموعة \"المشتريات المتكررة معًا\"."
+
+#: inc/vendors/theme-options.php:160 inc/mobile/theme-options.php:618
+#: inc/mobile/theme-options.php:884
+msgid "Select which elements you want to show."
+msgstr "اختر العناصر التي تريد عرضها."
+
+#: inc/vendors/wcfm_vendors.php:258
+msgid ""
+"Set this quantity will make the product to be a deal. The sale will end when "
+"this quantity is sold out."
+msgstr ""
+"تعيين هذه الكمية سيجعل المنتج عرضًا خاصًا. ستنتهي البيع عند نفاد هذه الكمية."
+
+#: inc/vendors/wcfm_vendors.php:267
+msgid "Set this sold items should be less than the sale quantity."
+msgstr "تعيين العناصر المباعة يجب أن تكون أقل من كمية البيع."
+
+#: inc/mega-menu/class-menu-edit.php:118 inc/functions/header.php:183
+#: inc/functions/header.php:196
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: inc/frontend/footer.php:195 inc/functions/entry.php:1166
+msgid "Share"
+msgstr "مشاركة"
+
+#: woocommerce/myaccount/my-address.php:29
+msgid "Shipping address"
+msgstr "عنوان الشحن"
+
+#: woocommerce/cart/cart-shipping.php:62
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:54
+msgid "Shipping options will be updated during checkout."
+msgstr "سيتم تحديث خيارات الشحن أثناء الدفع."
+
+#. $s shipping destination.
+#: woocommerce/cart/cart-shipping.php:51
+#, php-format
+msgid "Shipping to %s."
+msgstr "الشحن إلى %s."
+
+#: functions.php:72
+msgid "Shop By Department Menu"
+msgstr "قائمة التسوق حسب القسم"
+
+#: inc/mobile/layout.php:606
+msgid "Shop By Departments"
+msgstr "تسوق حسب الأقسام"
+
+#: dokan/global/seller-registration-form.php:33
+msgid "Shop Name"
+msgstr "اسم المتجر"
+
+#: inc/functions/entry.php:1306 inc/functions/entry.php:1317
+msgid "Shop Now"
+msgstr "تسوق الآن"
+
+#: inc/functions/header.php:207
+msgid "Shop Settings"
+msgstr "إعدادات المتجر"
+
+#: dokan/global/seller-registration-form.php:41
+msgid "Shop URL"
+msgstr "رابط المتجر"
+
+#: wc-vendors/dashboard/date-picker.php:16
+msgid "Show"
+msgstr "عرض"
+
+#: inc/mobile/theme-options.php:695
+msgid "Show after selecting"
+msgstr "عرض بعد الاختيار"
+
+#: inc/mobile/theme-options.php:649
+msgid "Show Featured Icons"
+msgstr "عرض الأيقونات المميزة"
+
+#: inc/mobile/theme-options.php:839
+msgid "Show Recently Viewed"
+msgstr "عرض المشاهدات الأخيرة"
+
+#: inc/mobile/theme-options.php:847
+msgid "Show Recently Viewed in"
+msgstr "عرض المشاهدات الأخيرة في"
+
+#: inc/mobile/theme-options.php:641
+msgid "Show Variation Images"
+msgstr "عرض صور الاختلافات"
+
+#: inc/backend/product-cat.php:202 inc/backend/product-cat.php:417
+msgid "Single Banner"
+msgstr "بانر فردي"
+
+#: inc/backend/product-cat.php:218 inc/backend/product-cat.php:441
+msgid "Single Banner Link"
+msgstr "رابط البانر الفردي"
+
+#: functions.php:113
+msgid "Single Post Sidebar"
+msgstr "الشريط الجانبي للمنشور الفردي"
+
+#: inc/mobile/theme-options.php:854
+msgid "Single Product"
+msgstr "منتج فردي"
+
+#: functions.php:116
+msgid "Single Product Sidebar"
+msgstr "الشريط الجانبي للمنتج الفردي"
+
+#: inc/backend/meta-boxes.php:275
+msgid "Site Settings"
+msgstr "إعدادات الموقع"
+
+#: inc/backend/meta-boxes.php:313
+msgid "Site Title(HTML Tag)"
+msgstr "عنوان الموقع (علامة HTML)"
+
+#: woocommerce/single-product/meta.php:32
+msgid "SKU:"
+msgstr "SKU:"
+
+#: inc/functions/entry.php:1167
+msgid "Skype"
+msgstr "سكايب"
+
+#: inc/vendors/theme-options.php:78
+msgid "Sold By"
+msgstr "بيع بواسطة"
+
+#: inc/vendors/theme-options.php:318
+msgid "Sold By Layout"
+msgstr "تخطيط البيع بواسطة"
+
+#: inc/vendors/wcfm_vendors.php:153 inc/vendors/dc_vendors.php:161
+#: template-parts/vendor/loop-sold-by.php:20
+msgid "Sold By:"
+msgstr "بيع بواسطة:"
+
+#: inc/vendors/wcfm_vendors.php:263 inc/vendors/dc_vendors.php:189
+msgid "Sold Items"
+msgstr "العناصر المباعة"
+
+#: inc/backend/plugins.php:138
+msgid "Something went wrong with the plugin API."
+msgstr "حدث خطأ ما مع واجهة برمجة تطبيقات الإضافة."
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"عذرًا، لكن لا شيء يطابق مصطلحات البحث الخاصة بك. الرجاء المحاولة مرة أخرى مع "
+"بعض الكلمات الرئيسية المختلفة."
+
+#: inc/backend/plugins.php:144
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/backend/plugins.php:141
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/backend/plugins.php:146
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/mobile/theme-options.php:616
+msgid "Sort By"
+msgstr "فرز بواسطة"
+
+#: woocommerce/loop/orderby.php:45
+msgid "Sort by Default"
+msgstr "الترتيب حسب الافتراضي"
+
+#: inc/vendors/theme-options.php:191
+msgid "Specify how many product columns you want to show."
+msgstr "حدد عدد أعمدة المنتج التي تريد عرضها."
+
+#: inc/vendors/theme-options.php:214
+msgid "Specify how many products you want to show on the vendor page"
+msgstr "حدد عدد المنتجات التي تريد عرضها على صفحة البائع"
+
+#: inc/functions/entry.php:1160
+msgid "Spotify"
+msgstr "سبوتيفاي"
+
+#: woocommerce/single-product-reviews.php:65
+msgid "Star"
+msgstr "نجمة"
+
+#: inc/backend/meta-boxes.php:129
+msgid "Status"
+msgstr "الحالة"
+
+#: woocommerce/single-product/stock.php:24
+msgid "Status:"
+msgstr "الحالة:"
+
+#: inc/mobile/theme-options.php:257
+msgid "Sticky Header"
+msgstr "رأس ثابت"
+
+#: inc/mobile/theme-options.php:264
+msgid "Sticky Header Type"
+msgstr "نوع الرأس الثابت"
+
+#: inc/mobile/theme-options.php:719
+msgid "Sticky Product Info"
+msgstr "معلومات المنتج الثابتة"
+
+#: inc/frontend/wcboost-wishlist.php:115
+msgid "Stock"
+msgstr "المخزون"
+
+#: dokan/store-header.php:14
+msgid "Store Closed"
+msgstr "المتجر مغلق"
+
+#: inc/vendors/theme-options.php:274
+msgid "Store Header"
+msgstr "رأس المتجر"
+
+#: inc/vendors/theme-options.php:301
+msgid "Store Layout Layout"
+msgstr "تخطيط تصميم المتجر"
+
+#: dokan/store-header.php:13
+msgid "Store Open"
+msgstr "المتجر مفتوح"
+
+#: wc-vendors/dashboard/links.php:4
+msgid "Store Settings"
+msgstr "إعدادات المتجر"
+
+#: inc/backend/meta-boxes.php:148 inc/backend/meta-boxes.php:159
+msgid "Style"
+msgstr "الأسلوب"
+
+#: inc/backend/meta-boxes.php:163
+msgid "Style 1"
+msgstr "الأسلوب 1"
+
+#: inc/backend/meta-boxes.php:164
+msgid "Style 2"
+msgstr "الأسلوب 2"
+
+#: inc/backend/meta-boxes.php:165
+msgid "Style 3"
+msgstr "الأسلوب 3"
+
+#: inc/backend/meta-boxes.php:166
+msgid "Style 4"
+msgstr "الأسلوب 4"
+
+#: woocommerce/single-product-reviews.php:107
+msgid "Submit"
+msgstr "إرسال"
+
+#: woocommerce/content-mini-cart.php:28 woocommerce/cart/cart-totals.php:33
+#: woocommerce/cart/cart-totals.php:34
+msgid "Subtotal"
+msgstr "المجموع الفرعي"
+
+#: inc/modules/product-bought-together/frontend.php:335
+msgid "SubTotal: "
+msgstr "المجموع الفرعي: "
+
+#: inc/mega-menu/tmpl/icon.php:18
+msgid "SVG Code"
+msgstr "كود SVG"
+
+#: woocommerce/single-product/meta.php:54
+msgid "Tag:"
+msgstr "الوسم:"
+
+#. used between list items, there is a space after the comma
+#: inc/functions/entry.php:66
+msgid "Tags"
+msgstr "الوسوم"
+
+#: woocommerce/single-product/meta.php:52
+msgid "Tags:"
+msgstr "الوسوم:"
+
+#: inc/backend/meta-boxes.php:97
+msgid "Text"
+msgstr "النص"
+
+#: inc/mega-menu/tmpl/background.php:106
+msgid "Text Color"
+msgstr "لون النص"
+
+#: inc/vendors/wcfm_vendors.php:396 inc/backend/meta-boxes.php:360
+msgid "The first product gallery"
+msgstr "أول معرض للمنتج"
+
+#: inc/backend/plugins.php:145
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/backend/plugins.php:143
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/backend/plugins.php:142
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/vendors/wcfm_vendors.php:395 inc/backend/meta-boxes.php:359
+msgid "The last product gallery"
+msgstr "آخر معرض للمنتج"
+
+#: inc/frontend/entry.php:87
+msgid "The Latest Posts"
+msgstr "أحدث المنشورات"
+
+#: inc/backend/meta-boxes.php:430
+msgid ""
+"The Martfury Addons plugin needs to be updated to 2.3.0 to ensure maximum "
+"compatibility with this theme. Go to Plugins > Martfury Addons to update it."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:205
+msgid "There are no reviews yet."
+msgstr "لا توجد مراجعات بعد."
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: inc/modules/product-bought-together/frontend.php:156
+msgid "This item:"
+msgstr "هذا العنصر:"
+
+#: inc/mobile/theme-options.php:407
+msgid "This logo is used for mobile."
+msgstr "يُستخدم هذا الشعار للجوال."
+
+#: inc/mobile/theme-options.php:272
+msgid "This option is used for homepage."
+msgstr "يُستخدم هذا الخيار للصفحة الرئيسية."
+
+#: inc/backend/product-cat.php:213 inc/backend/product-cat.php:221
+#: inc/backend/product-cat.php:435 inc/backend/product-cat.php:446
+msgid "This option is used for the category is level 1 and layout 2."
+msgstr "يُستخدم هذا الخيار للفئة المستوى 1 والتخطيط 2."
+
+#: woocommerce/single-product/add-to-cart/variable.php:35
+#: inc/modules/product-bought-together/frontend.php:243
+msgid "This product is currently out of stock and unavailable."
+msgstr "هذا المنتج غير متوفر حاليًا وغير متاح."
+
+#: inc/backend/meta-boxes.php:446
+msgid ""
+"This theme recommends installing and activating only one plugin Elementor or "
+"WPBakery Page Builder."
+msgstr ""
+
+#: inc/backend/plugins.php:140
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/backend/plugins.php:139
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: wc-vendors/dashboard/date-picker.php:10
+msgid "To:"
+msgstr "إلى:"
+
+#: inc/frontend/footer.php:198
+msgid "Toggle fullscreen"
+msgstr "تبديل وضع ملء الشاشة"
+
+#: inc/vendors/theme-options.php:152 inc/mobile/theme-options.php:610
+#: inc/mobile/theme-options.php:876
+msgid "ToolBar Elements"
+msgstr "عناصر شريط الأدوات"
+
+#: inc/mobile/theme-options.php:208 inc/mega-menu/tmpl/background.php:74
+msgid "Top"
+msgstr "الأعلى"
+
+#: inc/mobile/theme-options.php:163
+msgid "Top Bar"
+msgstr "الشريط العلوي"
+
+#: inc/mobile/theme-options.php:298
+msgid "Top Bar Background Color"
+msgstr "لون خلفية الشريط العلوي"
+
+#: inc/mobile/theme-options.php:316
+msgid "Top Bar Text Color"
+msgstr "لون نص الشريط العلوي"
+
+#: inc/backend/product-cat.php:164 inc/backend/product-cat.php:378
+msgid "Top Categories"
+msgstr "الفئات العليا"
+
+#: inc/backend/meta-boxes.php:250
+msgid "Top Space"
+msgstr "المساحة العليا"
+
+#: functions.php:109
+msgid "Topbar Left"
+msgstr "الشريط العلوي الأيسر"
+
+#: functions.php:111
+msgid "Topbar on Mobile"
+msgstr "الشريط العلوي على الجوال"
+
+#: functions.php:110
+msgid "Topbar Right"
+msgstr "الشريط العلوي الأيمن"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:138
+#: woocommerce/cart/cart-totals.php:85 woocommerce/cart/cart-totals.php:86
+msgid "Total"
+msgstr "الإجمالي"
+
+#: inc/modules/product-bought-together/frontend.php:353
+msgid "Total Price: "
+msgstr "السعر الإجمالي: "
+
+#: inc/mega-menu/class-mega-menu-walker.php:382
+#: inc/mega-menu/tmpl/general.php:38
+msgid "Trending"
+msgstr "الشائع"
+
+#: inc/functions/entry.php:1162
+msgid "Tumbleupon"
+msgstr "تمبلر"
+
+#: inc/functions/entry.php:1153
+msgid "Tumblr"
+msgstr "تمبلر"
+
+#: inc/functions/entry.php:1151
+msgid "Twitter"
+msgstr "تويتر"
+
+#: woocommerce/cart/cart.php:179
+msgid "Update cart"
+msgstr "تحديث السلة"
+
+#: inc/backend/product-cat.php:210 inc/backend/product-cat.php:432
+msgid "Upload/Add image"
+msgstr "رفع/إضافة صورة"
+
+#: inc/backend/product-cat.php:98 inc/backend/product-cat.php:304
+msgid "Upload/Add Images"
+msgstr "رفع/إضافة صور"
+
+#: inc/mobile/theme-options.php:291
+msgid "Use Custom Header For Homepage"
+msgstr "استخدم رأس مخصص للصفحة الرئيسية"
+
+#: functions.php:75
+msgid "User Logged Menu"
+msgstr "قائمة المستخدم المسجل"
+
+#: woocommerce/myaccount/form-login.php:123
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: woocommerce/myaccount/form-lost-password.php:28
+#: woocommerce/global/form-login.php:39
+msgid "Username or email"
+msgstr "اسم المستخدم أو البريد الإلكتروني"
+
+#: woocommerce/myaccount/form-login.php:73
+msgid "Username or email address"
+msgstr "اسم المستخدم أو عنوان البريد الإلكتروني"
+
+#: inc/vendors/theme-options.php:40
+msgid "Vendor Dashboard"
+msgstr "لوحة تحكم البائع"
+
+#: inc/vendors/theme-options.php:253
+msgid "Vendor Layout"
+msgstr "تخطيط البائع"
+
+#: functions.php:78
+msgid "Vendor Logged Menu"
+msgstr "قائمة البائع المسجل"
+
+#: inc/vendors/theme-options.php:96 inc/vendors/theme-options.php:237
+msgid "Vendor Name"
+msgstr "اسم البائع"
+
+#: inc/vendors/theme-options.php:33 inc/mobile/theme-options.php:97
+msgid "Vendor Page"
+msgstr "صفحة البائع"
+
+#: woocommerce/single-product/review-meta.php:39
+msgid "verified owner"
+msgstr "المالك المُثبت"
+
+#: woocommerce/single-product-reviews.php:156
+msgid "Very poor"
+msgstr "ضعيف جدًا"
+
+#: inc/backend/meta-boxes.php:73
+msgid "Video"
+msgstr "فيديو"
+
+#: inc/vendors/wcfm_vendors.php:390 inc/backend/meta-boxes.php:355
+msgid "Video Position"
+msgstr "موقع الفيديو"
+
+#: inc/vendors/wcfm_vendors.php:383 inc/backend/meta-boxes.php:347
+msgid "Video Thumbnail"
+msgstr "مصغرات الفيديو"
+
+#: inc/vendors/wcfm_vendors.php:376 inc/backend/meta-boxes.php:340
+msgid "Video URL"
+msgstr "رابط الفيديو"
+
+#: inc/vendors/theme-options.php:158 inc/vendors/theme-options.php:164
+#: inc/mobile/theme-options.php:882
+msgid "View"
+msgstr "عرض"
+
+#: inc/frontend/header.php:195
+msgid "View Cart"
+msgstr "عرض السلة"
+
+#: woocommerce/content-mini-cart.php:33
+msgid "View cart"
+msgstr "عرض السلة"
+
+#: inc/frontend/header.php:211
+msgid "View Wishlist"
+msgstr "عرض قائمة الأمنيات"
+
+#: wc-vendors/dashboard/links.php:3
+msgid "View Your Store"
+msgstr "عرض متجرك"
+
+#: inc/functions/entry.php:1155
+msgid "Vimeo"
+msgstr "فيميو"
+
+#: inc/mega-menu/tmpl/general.php:9
+msgid "Visible Text"
+msgstr "النص المرئي"
+
+#: inc/vendors/dokan.php:156 inc/functions/header.php:185
+#: inc/functions/header.php:211
+msgid "Visit Store"
+msgstr "زيارة المتجر"
+
+#: inc/backend/plugins.php:74
+msgid "WCBoost - Products Compare"
+msgstr "WCBoost - مقارنة المنتجات"
+
+#: inc/backend/plugins.php:90
+msgid "WCBoost - Variation Swatches"
+msgstr "WCBoost - عينات الألوان المتنوعة"
+
+#: inc/backend/plugins.php:37
+msgid "WCBoost - Wishlist"
+msgstr "WCBoost - قائمة الرغبات"
+
+#: inc/frontend/entry.php:202
+msgid "Website"
+msgstr "موقع الويب"
+
+#: inc/mobile/theme-options.php:236
+msgid "WishList"
+msgstr "قائمة الأماني"
+
+#: woocommerce/loop/add-to-wishlist.php:30 inc/frontend/wcboost-wishlist.php:34
+#: inc/mobile/theme-options.php:456 inc/mobile/theme-options.php:578
+msgid "Wishlist"
+msgstr "قائمة الأماني"
+
+#: inc/functions/header.php:187
+msgid "Withdraw"
+msgstr "سحب"
+
+#: inc/backend/plugins.php:30
+msgid "WooCommerce"
+msgstr "ووكوميرس"
+
+#: inc/backend/plugins.php:53
+msgid "Woocommerce Deals"
+msgstr "عروض ووكوميرس"
+
+#. Description of the theme
+msgid "WooCommerce Marketplace WordPress Theme"
+msgstr "قالب ووردبريس لسوق ووكوميرس"
+
+#: inc/functions/entry.php:1163
+msgid "WordPress"
+msgstr "ووردبريس"
+
+#. If there are characters in your language that are not
+#. supported by Montserrat, translate this to 'off'. Do not translate
+#. into your own language.
+#: inc/functions/media.php:26
+msgctxt "WorkSans font: on or off"
+msgid "on"
+msgstr "مفعل"
+
+#: inc/backend/plugins.php:101 inc/backend/plugins.php:118
+msgid "WPBakery Page Builder"
+msgstr "منشئ صفحات WPBakery"
+
+#: woocommerce/single-product-reviews.php:159
+msgid "Write your review here..."
+msgstr "اكتب مراجعتك هنا..."
+
+#: inc/functions/breadcrumbs.php:32
+msgid "Yearly:"
+msgstr "سنويًا:"
+
+#: inc/functions/entry.php:1170
+msgid "Yelp"
+msgstr "ييلب"
+
+#: inc/functions/breadcrumbs.php:16
+msgid "You are here: "
+msgstr "أنت هنا: "
+
+#: woocommerce/myaccount/my-address.php:59
+msgid "You have not set up this type of address yet."
+msgstr "لم تقم بإعداد هذا النوع من العناوين بعد."
+
+#. %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:146
+#, fuzzy, php-format
+#| msgid "You must be %slogged in%s to post a review."
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr "يجب أن تكون %sمسجل الدخول%s لنشر مراجعة."
+
+#: woocommerce/checkout/form-checkout.php:28
+msgid "You must be logged in to checkout."
+msgstr "يجب أن تكون مسجل الدخول لإتمام عملية الشراء."
+
+#: inc/mobile/layout.php:511
+msgid "Your Cart Items"
+msgstr "عناصر سلة التسوق الخاصة بك"
+
+#: inc/functions/comments.php:77
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بانتظار الموافقة."
+
+#: woocommerce/checkout/form-checkout.php:57
+msgid "Your order"
+msgstr "طلبك"
+
+#: woocommerce/single-product-reviews.php:150
+msgid "Your rating of this product"
+msgstr "تقييمك لهذا المنتج"
+
+#: woocommerce/single-product/review-meta.php:29
+msgid "Your review is awaiting approval"
+msgstr "مراجعتك في انتظار الموافقة"
+
+#: inc/functions/header.php:390
+msgid "Your Wishlist"
+msgstr "قائمة أمانيك"
+
+#: inc/functions/entry.php:1156
+msgid "Youtube"
+msgstr "يوتيوب"
+
+#: inc/frontend/footer.php:201
+msgid "Zoom in/out"
+msgstr "تكبير/تصغير"

@@ -8,6 +8,7 @@ services:
     volumes:
       - ./wordpress:/var/www/html
       - ./php-conf/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+      - ./apache-conf/000-default.conf:/etc/apache2/sites-available/000-default.conf
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: wordpress
@@ -16,6 +17,7 @@ services:
     depends_on:
       - db
     restart: always
+
 
   db:
     image: mariadb:latest

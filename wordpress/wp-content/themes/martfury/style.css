@@ -2804,7 +2804,7 @@ body:not(.rtl) .header-bar .widget:last-child {
 
 .site-header .header-main {
 	padding-top: 20px;
-	padding-bottom: 0px;
+	padding-bottom: 20px;
 	background-color: var(--mf-background-light-color);
 }
 
@@ -5050,7 +5050,7 @@ body.display-mobile-menu {
 }
 
 .nav ul {
-	margin-left: 420px;
+	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
@@ -19412,7 +19412,6 @@ textarea:focus {
 .martfury-container {
 	width: 1650px;
 	margin: 0 auto;
-	backfrou
 }
 
 .martfury-container .martfury-container {
@@ -28748,7 +28747,6 @@ body.navigation-mobile-active .martfury-off-canvas-layer {
 	}
 	.site-header .header-row {
 		justify-content: space-between;
-
 	}
 	.site-header.has-hot-words .header-logo,
 	.site-header.has-hot-words .extras-menu {
