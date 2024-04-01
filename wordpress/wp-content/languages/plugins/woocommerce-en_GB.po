@@ -2,14 +2,425 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-02-15 21:16:48+0000\n"
+"PO-Revision-Date: 2024-03-09 10:05:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-beta.2\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
 "Language: en_GB\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
+
+#: assets/client/blocks/product-gallery/block.json
+msgctxt "block title"
+msgid "Product Gallery (Beta)"
+msgstr "Product Gallery (Beta)"
+
+#: assets/client/blocks/product-filter-stock-status/block.json
+msgctxt "block title"
+msgid "Product Filter: Stock Status"
+msgstr "Product Filter: Stock Status"
+
+#: assets/client/blocks/product-filter-rating/block.json
+msgctxt "block title"
+msgid "Product Filter: Rating"
+msgstr "Product Filter: Rating"
+
+#: assets/client/blocks/product-filter-price/block.json
+msgctxt "block title"
+msgid "Product Filter: Price"
+msgstr "Product Filter: Price"
+
+#: assets/client/blocks/product-filter-attribute/block.json
+msgctxt "block title"
+msgid "Product Filter: Attribute"
+msgstr "Product Filter: Attribute"
+
+#: assets/client/blocks/product-filter-active/block.json
+msgctxt "block title"
+msgid "Product Filter: Active Filters"
+msgstr "Product Filter: Active Filters"
+
+#: assets/client/blocks/order-confirmation-additional-fields/block.json
+msgctxt "block description"
+msgid "Display the list of additional field values from the current order."
+msgstr "Display the list of additional field values from the current order."
+
+#: assets/client/blocks/order-confirmation-additional-fields/block.json
+msgctxt "block title"
+msgid "Additional Field List"
+msgstr "Additional Field List"
+
+#: assets/client/blocks/order-confirmation-additional-fields-wrapper/block.json
+msgctxt "block title"
+msgid "Additional Fields"
+msgstr "Additional Fields"
+
+#: assets/client/blocks/inner-blocks/checkout-additional-information-block/block.json
+msgctxt "block title"
+msgid "Additional information"
+msgstr "Additional information"
+
+#: assets/client/admin/product-editor/blocks/product-fields/product-details-section-description/block.json
+msgctxt "block description"
+msgid "The product details section description."
+msgstr "The product details section description."
+
+#: assets/client/admin/product-editor/blocks/product-fields/product-details-section-description/block.json
+msgctxt "block title"
+msgid "Product details section description"
+msgstr "Product details section description"
+
+#: assets/client/admin/product-editor/blocks/generic/linked-product-list/block.json
+#: assets/client/admin/product-editor/blocks/generic/product-linked-list-field/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "list"
+
+#: assets/client/admin/product-editor/blocks/generic/linked-product-list/block.json
+#: assets/client/admin/product-editor/blocks/generic/product-linked-list-field/block.json
+msgctxt "block keyword"
+msgid "linked"
+msgstr "linked"
+
+#: assets/client/admin/product-editor/blocks/generic/linked-product-list/block.json
+#: assets/client/admin/product-editor/blocks/generic/product-linked-list-field/block.json
+msgctxt "block description"
+msgid "The linked product list."
+msgstr "The linked product list."
+
+#: assets/client/admin/product-editor/blocks/generic/linked-product-list/block.json
+#: assets/client/admin/product-editor/blocks/generic/product-linked-list-field/block.json
+msgctxt "block title"
+msgid "Linked product list"
+msgstr "Linked product list"
+
+#: assets/client/blocks/inner-blocks/checkout-additional-information-block/block.json
+msgctxt "block description"
+msgid "Render additional fields in the 'Additional information' location."
+msgstr "Render additional fields in the “Additional information” location."
+
+#: assets/client/blocks/order-confirmation-additional-fields-wrapper/block.json
+msgctxt "block description"
+msgid "Display additional checkout fields from the 'contact' and 'additional' locations."
+msgstr "Display additional checkout fields from the “contact” and “additional” locations."
+
+#: templates/order/attribution-details.php:78
+msgid "Medium"
+msgstr "Medium"
+
+#: src/Internal/TransientFiles/TransientFilesEngine.php:359
+msgid "Schedule expired transient files cleanup"
+msgstr "Schedule expired transient files cleanup"
+
+#. translators: %1$s: Learn more about linked products. %2$s: Learn more about
+#. linked products.
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:1183
+msgid "By suggesting complementary products in the cart using cross-sells, you can significantly increase the average order value. %1$sLearn more about linked products.%2$s"
+msgstr "By suggesting complementary products in the basket using cross-sells, you can significantly increase the average order value. %1$sLearn more about linked products.%2$s"
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:1203
+msgid "Tip: By suggesting complementary products in the cart using cross-sells, you can significantly increase the average order value."
+msgstr "Tip: by suggesting complementary products in the basket using cross-sells, you can significantly increase the average order value."
+
+#: src/Internal/TransientFiles/TransientFilesEngine.php:358
+msgid "Re-schedule expired transient files cleanup"
+msgstr "Reschedule expired transient files cleanup"
+
+#: src/Internal/TransientFiles/TransientFilesEngine.php:361
+msgid "Remove the currently scheduled action to delete expired transient files, then schedule it again for running immediately. Subsequent actions will run once every 24h."
+msgstr "Remove the currently scheduled action to delete expired transient files, then schedule it again for running immediately. Subsequent actions will run once every 24 hours."
+
+#: src/Internal/TransientFiles/TransientFilesEngine.php:362
+msgid "Schedule the action to delete expired transient files for running immediately. Subsequent actions will run once every 24h."
+msgstr "Schedule the action to delete expired transient files for running immediately. Subsequent actions will run once every 24 hours."
+
+#: src/Internal/TransientFiles/TransientFilesEngine.php:364
+msgid "Re-schedule"
+msgstr "Reschedule"
+
+#: src/Internal/TransientFiles/TransientFilesEngine.php:372
+msgid "Un-schedule expired transient files cleanup"
+msgstr "Unschedule expired transient files cleanup"
+
+#: src/Internal/TransientFiles/TransientFilesEngine.php:373
+msgid "Remove the currently scheduled action to delete expired transient files. Expired files won't be automatically deleted until the 'Schedule expired transient files cleanup' tool is run again."
+msgstr "Remove the currently scheduled action to delete expired transient files. Expired files won't be automatically deleted until the “Schedule expired transient files cleanup” tool is run again."
+
+#: src/Internal/TransientFiles/TransientFilesEngine.php:374
+msgid "Un-schedule"
+msgstr "Unschedule"
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:480
+msgid "Include downloads"
+msgstr "Include downloads"
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:165
+msgid "Linked products"
+msgstr "Linked products"
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:335
+msgid "Unable to start synchronization. The link you followed may have expired."
+msgstr "Unable to start synchronisation. The link you followed may have expired."
+
+#: src/Internal/Admin/Logging/Settings.php:320
+msgid "You do not have permission to manage logging settings."
+msgstr "You do not have permission to manage logging settings."
+
+#: src/Internal/Admin/Logging/Settings.php:291
+msgid "Database settings"
+msgstr "Database settings"
+
+#. translators: %s is a location in the filesystem.
+#: src/Internal/Admin/Logging/Settings.php:285
+msgid "Log entries are stored in this database table: %s"
+msgstr "Log entries are stored in this database table: %s"
+
+#: src/Internal/Admin/Logging/Settings.php:258
+msgid "File system settings"
+msgstr "File system settings"
+
+#. translators: %1$s is a code variable. %2$s is the name of a file.
+#: src/Internal/Admin/Logging/Settings.php:251
+msgid "Change the location by defining the %1$s constant in your %2$s file with a new path."
+msgstr "Change the location by defining the %1$s constant in your %2$s file with a new path."
+
+#: src/Internal/Admin/Logging/Settings.php:246
+msgid "⚠️ This directory does not appear to be writable."
+msgstr "⚠️ This directory does not appear to be writable."
+
+#. translators: %s is a location in the filesystem.
+#: src/Internal/Admin/Logging/Settings.php:238
+msgid "Log files are stored in this directory: %s"
+msgstr "Log files are stored in this directory: %s"
+
+#: src/Internal/Admin/Orders/ListTable.php:1627
+msgid "Customer Email"
+msgstr "Customer email address"
+
+#. translators: %1$s: Learn more about linked products. %2$s: Learn more about
+#. linked products.
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:1150
+msgid "Upsells are typically products that are extra profitable or better quality or more expensive. Experiment with combinations to boost sales. %1$sLearn more about linked products.%2$s"
+msgstr "Upsells are typically products that are extra profitable, or better quality, or more expensive. Experiment with combinations to boost sales. %1$sLearn more about linked products.%2$s"
+
+#: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:1165
+msgid "Tip: Upsells are products that are extra profitable or better quality or more expensive. Experiment with combinations to boost sales."
+msgstr "Tip: upsells are products that are extra profitable, or better quality, or more expensive. Experiment with combinations to boost sales."
+
+#: src/Internal/Admin/Logging/Settings.php:214
+msgid "This sets the minimum severity level of logs that will be stored. Lower severity levels will be ignored. \"None\" means all logs will be stored."
+msgstr "This sets the minimum severity level of logs that will be stored. Lower severity levels will be ignored. \"None\" means all logs will be stored."
+
+#: src/Internal/Admin/Logging/Settings.php:213
+msgid "Level threshold"
+msgstr "Level threshold"
+
+#. translators: %1$s is the name of a code variable. %2$s is the name of a
+#. file.
+#: src/Internal/Admin/Logging/Settings.php:198
+msgid "This setting cannot be changed here because it is defined in the %1$s constant, probably in your %2$s file."
+msgstr "This setting cannot be changed here because it is defined in the %1$s constant, probably in your %2$s file."
+
+#: src/Internal/Admin/Logging/Settings.php:170
+msgid "This sets how many days log entries will be kept before being auto-deleted."
+msgstr "This sets how many days log entries will be kept before being auto-deleted."
+
+#: src/Internal/Admin/Logging/Settings.php:169
+msgid "Retention period"
+msgstr "Retention period"
+
+#. translators: %s is the name of a filter hook.
+#: src/Internal/Admin/Logging/Settings.php:163
+msgid "This setting cannot be changed here because it is being set by a filter on the %s hook."
+msgstr "This setting cannot be changed here because it is being set by a filter on the %s hook."
+
+#: src/Internal/Admin/Logging/Settings.php:132
+msgid "This determines where log entries are saved."
+msgstr "This determines where log entries are saved."
+
+#: src/Internal/Admin/Logging/Settings.php:131
+msgid "Log storage"
+msgstr "Log storage"
+
+#. translators: %s is the name of a code variable.
+#: src/Internal/Admin/Logging/Settings.php:125
+msgid "This setting cannot be changed here because it is defined in the %s constant."
+msgstr "This setting cannot be changed here because it is defined in the %s constant."
+
+#: src/Internal/Admin/Logging/Settings.php:119
+msgid "Note that if this setting is changed, any log entries that have already been recorded will remain stored in their current location, but will not migrate."
+msgstr "Note that if this setting is changed, any log entries that have already been recorded will remain stored in their current location, but will not migrate."
+
+#: src/Internal/Admin/Logging/Settings.php:100
+msgid "Database (not recommended on live sites)"
+msgstr "Database (not recommended on live sites)"
+
+#: src/Internal/Admin/Logging/Settings.php:99
+msgid "File system (default)"
+msgstr "File system (default)"
+
+#: src/Internal/Admin/Logging/Settings.php:59
+msgid "Logger"
+msgstr "Logger"
+
+#: src/Internal/Admin/Logging/Settings.php:54
+msgid "Logs settings"
+msgstr "Logs settings"
+
+#. translators: %s is a URL to another admin screen.
+#: src/Internal/Admin/Logging/PageController.php:114
+msgid "Logging is disabled. It can be enabled in <a href=\"%s\">Logs Settings</a>."
+msgstr "Logging is disabled. It can be enabled in <a href=\"%s\">Logs Settings</a>."
+
+#. translators: %1$s is a number of log files, %2$s is a slug-style name for a
+#. file.
+#: src/Internal/Admin/Logging/LogHandlerFileV2.php:193
+msgid "%1$s log file from source %2$s was deleted."
+msgid_plural "%1$s log files from source %2$s were deleted."
+msgstr[0] "%1$s log file from source %2$s was deleted."
+msgstr[1] "%1$s log files from source %2$s were deleted."
+
+#. translators: %d is an order ID.
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:1058
+msgid "Differences found for order %d:"
+msgstr "Differences found for order %d:"
+
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:1034
+msgid "No differences found."
+msgstr "No differences found."
+
+#. translators: %d is an order count.
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:983
+msgid "Orders subject to cleanup: %d"
+msgstr "Orders subject to cleanup: %d"
+
+#. translators: %d is an order count.
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:978
+msgid "Unsynced orders: %d"
+msgstr "Unsynced orders: %d"
+
+#. translators: %s is either 'yes' or 'no'.
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:975
+msgid "Compatibility mode enabled?: %s"
+msgstr "Compatibility mode enabled?: %s"
+
+#. translators: %s is either 'yes' or 'no'.
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:972
+msgid "HPOS enabled?: %s"
+msgstr "HPOS enabled?: %s"
+
+#: src/Blocks/BlockTypes/ProductFilterStockStatus.php:156
+#: assets/client/blocks/product-filter-stock-status.js:2
+msgid "Select stock statuses"
+msgstr "Select stock statuses"
+
+#: src/Blocks/BlockTypes/ProductFilterRating.php:232
+#: assets/client/blocks/product-filter-rating.js:3
+msgid "Select ratings"
+msgstr "Select ratings"
+
+#: src/Blocks/BlockTypes/ProductFilterRating.php:232
+#: assets/client/blocks/product-filter-rating.js:3
+msgid "Select a rating"
+msgstr "Select a rating"
+
+#: src/Blocks/BlockTypes/ProductDetails.php:36
+msgid "Minimal"
+msgstr "Minimal"
+
+#: src/Admin/Features/ProductBlockEditor/Init.php:270
+msgid "Affiliate product"
+msgstr "Affiliate product"
+
+#: src/Admin/Features/ProductBlockEditor/Init.php:245
+msgid "A single physical or virtual product, e.g. a t-shirt or an eBook."
+msgstr "A single physical or virtual product, eg a t-shirt or an eBook."
+
+#: src/Admin/Features/ProductBlockEditor/Init.php:258
+msgid "A set of products that go well together, e.g. camera kit."
+msgstr "A set of products that go well together, eg camera kit."
+
+#: src/Admin/Features/ProductBlockEditor/Init.php:271
+msgid "A link to a product sold on a different website, e.g. brand collab."
+msgstr "A link to a product sold on a different website, eg brand collaboration."
+
+#. translators: %1$d is an order ID, %2$s is an error message.
+#: src/Database/Migrations/CustomOrderTable/CLIRunner.php:1030
+msgid "An error occurred while computing a diff for order %1$d: %2$s"
+msgstr "An error occurred while computing a difference for order %1$d: %2$s"
+
+#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:91
+msgid "Accept credit/debit cards and other popular payment methods with no setup or monthly fees — and manage payments right from your store dashboard."
+msgstr "Accept credit/debit cards and other popular payment methods with no setup or monthly fees – and manage payments right from your store dashboard."
+
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:100
+msgid "Airwallex Payments"
+msgstr "Airwallex payments"
+
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:101
+msgid "Boost international sales and save on FX fees. Accept 60+ local payment methods including Apple Pay and Google Pay."
+msgstr "Boost international sales and save on FX fees. Accept 60+ local payment methods, including Apple Pay and Google Pay."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:366
+msgid "Coupons for groups. Provides the option to have coupons that are restricted to group members or roles. Works with the free Groups plugin."
+msgstr "Coupons for groups. Provides the option to have coupons that are restricted to group members or roles. Works with the free Groups plugin."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:352
+msgid "Give away a free item to any customer with the coupon code."
+msgstr "Give away a free item to any customer with the coupon code."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:338
+msgid "Create \"store credit\" coupons for customers which are redeemable at checkout."
+msgstr "Create \"store credit\" coupons for customers which are redeemable at checkout."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:296
+msgid "Generate dynamic personalized coupons for your customers that increase purchase rates."
+msgstr "Generate dynamic personalised coupons for your customers that increase purchase rates."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:280
+msgid "Sync your website's data like contacts, products, and orders over Salesforce CRM with Salesforce Integration for WooCommerce."
+msgstr "Sync your website's data like contacts, products, and orders over Salesforce CRM with Salesforce Integration for WooCommerce."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:248
+msgid "Harness data from WooCommerce to grow your business. Manage leads, customers, and segments, through automation, quotes, invoicing, billing, and email marketing. Power up your store with CRM."
+msgstr "Harness data from WooCommerce to grow your business. Manage leads, customers, and segments, through automation, quotes, invoicing, billing, and email marketing. Power up your store with CRM."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:216
+msgid "Collect and showcase verified reviews that consumers trust."
+msgstr "Collect and showcase verified reviews that consumers trust."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:198
+msgid "Delight customers and boost organic sales with a special WooCommerce birthday email (and coupon!) on their special day."
+msgstr "Delight customers and boost organic sales with a special WooCommerce birthday email (and coupon!) on their special day."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:232
+msgid "Turn your product images into stunning videos that engage and convert audiences - no video experience required."
+msgstr "Turn your product images into stunning videos that engage and convert audiences –no video experience required."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:264
+msgid "Integrate your WooCommerce store with 5000+ cloud apps and services today. Trusted by 11,000+ users."
+msgstr "Integrate your WooCommerce store with 5,000+ cloud apps and services today. Trusted by 11,000+ users."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:310
+msgid "Powerful, \"all in one\" solution for gift certificates, store credits, discount coupons and vouchers."
+msgstr "Powerful, \"all in one\" solution for gift certificates, store credits, discount coupons, and vouchers."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:324
+msgid "Create a unique URL that applies a discount and optionally adds one or more products to the customer's cart."
+msgstr "Create a unique URL that applies a discount and optionally adds one or more products to the customer's basket."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:180
+msgid "Boost your organic sales by adding a customer referral program to your WooCommerce store."
+msgstr "Boost your organic sales by adding a customer referral program to your WooCommerce store."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:162
+msgid "Convert and retain customers with automated marketing that does the hard work for you."
+msgstr "Convert and retain customers with automated marketing that does the hard work for you."
+
+#: src/Admin/Features/MarketingRecommendations/DefaultMarketingRecommendations.php:130
+msgid "Send targeted campaigns, recover abandoned carts and more with Mailchimp."
+msgstr "Send targeted campaigns, recover abandoned baskets, and more, with Mailchimp."
 
 #. translators: %s: Product title
 #: includes/class-wc-product-simple.php:73
@@ -1851,6 +2262,11 @@ msgstr "Received PDT notification for another account: %1$s. Order ID: %2$d."
 msgid "Received PDT notification for order %1$d on endpoint for order %2$d."
 msgstr "Received PDT notification for order %1$d on endpoint for order %2$d."
 
+#: assets/client/blocks/checkout/block.json
+msgctxt "block description"
+msgid "Display a checkout form so your customers can submit orders."
+msgstr "Display a checkout form so your customers can submit orders."
+
 #: assets/client/blocks/active-filters/block.json
 #: assets/client/blocks/add-to-cart-form/block.json
 #: assets/client/blocks/all-products/block.json
@@ -1918,11 +2334,6 @@ msgstr "Received PDT notification for order %1$d on endpoint for order %2$d."
 msgctxt "block keyword"
 msgid "WooCommerce"
 msgstr "WooCommerce"
-
-#: assets/client/blocks/checkout/block.json
-msgctxt "block description"
-msgid "Display a checkout form so your customers can submit orders."
-msgstr "Display a checkout form so your customers can submit orders."
 
 #: assets/client/blocks/checkout/block.json
 msgctxt "block title"
@@ -8171,6 +8582,16 @@ msgstr "Number of days to import."
 msgid "Sorry, fetching downloads data failed."
 msgstr "Sorry, fetching downloads data failed."
 
+#: src/Admin/API/Reports/Customers/Controller.php:336
+#: src/Admin/API/Reports/Customers/Stats/Controller.php:199
+#: src/Admin/API/Reports/Downloads/Stats/Controller.php:220
+#: src/Admin/API/Reports/Orders/Stats/Controller.php:375
+#: src/Admin/API/Reports/Products/Controller.php:253
+#: src/Admin/API/Reports/Variations/Controller.php:278
+#: src/Admin/API/Reports/Variations/Stats/Controller.php:214
+msgid "Indicates whether all the conditions should be true for the resulting set, or if any one of them is sufficient. Match affects the following parameters: status_is, status_is_not, product_includes, product_excludes, coupon_includes, coupon_excludes, customer, categories"
+msgstr "Indicates whether all the conditions should be true for the resulting set, or if any one of them is sufficient. Match affects the following parameters: status_is, status_is_not, product_includes, product_excludes, coupon_includes, coupon_excludes, customer, categories"
+
 #: src/Admin/API/Reports/Orders/Controller.php:224
 msgid "List of order coupons."
 msgstr "List of order coupons."
@@ -8201,16 +8622,6 @@ msgstr "Limit result set to items that have the specified tax rate(s) assigned."
 #: src/Admin/API/Reports/Orders/Stats/Controller.php:454
 msgid "Limit result set to items that don't have the specified coupon(s) assigned."
 msgstr "Limit result set to items that don't have the specified coupon(s) assigned."
-
-#: src/Admin/API/Reports/Customers/Controller.php:336
-#: src/Admin/API/Reports/Customers/Stats/Controller.php:199
-#: src/Admin/API/Reports/Downloads/Stats/Controller.php:220
-#: src/Admin/API/Reports/Orders/Stats/Controller.php:375
-#: src/Admin/API/Reports/Products/Controller.php:253
-#: src/Admin/API/Reports/Variations/Controller.php:278
-#: src/Admin/API/Reports/Variations/Stats/Controller.php:214
-msgid "Indicates whether all the conditions should be true for the resulting set, or if any one of them is sufficient. Match affects the following parameters: status_is, status_is_not, product_includes, product_excludes, coupon_includes, coupon_excludes, customer, categories"
-msgstr "Indicates whether all the conditions should be true for the resulting set, or if any one of them is sufficient. Match affects the following parameters: status_is, status_is_not, product_includes, product_excludes, coupon_includes, coupon_excludes, customer, categories"
 
 #: src/Admin/API/Reports/Orders/Controller.php:335
 #: src/Admin/API/Reports/Orders/Stats/Controller.php:445
@@ -9264,6 +9675,12 @@ msgstr "Congratulations on processing %s orders!"
 msgid "Activate usage tracking"
 msgstr "Activate usage tracking"
 
+#. translators: 1: open link to Woo.com settings, 2: open link to Woo.com
+#. tracking documentation, 3: close link tag.
+#: src/Internal/Admin/Notes/TrackingOptIn.php:53
+msgid "Gathering usage data allows us to improve WooCommerce. Your store will be considered as we evaluate new features, judge the quality of an update, or determine if an improvement makes sense. You can always visit the %1$sSettings%3$s and choose to stop sharing data. %2$sRead more%3$s about what data we collect."
+msgstr "Gathering usage data allows us to improve WooCommerce. Your store will be considered as we evaluate new features, judge the quality of an update, or determine if an improvement makes sense. You can always visit the %1$sSettings%3$s and choose to stop sharing data. %2$sRead more%3$s about what data we collect."
+
 #: src/Internal/Admin/Notes/OrderMilestones.php:260
 msgid "Review your orders"
 msgstr "Review your orders"
@@ -9277,12 +9694,6 @@ msgstr "Browse"
 #: src/Internal/Admin/Notes/OrderMilestones.php:224
 msgid "Another order milestone! Take a look at your Orders Report to review your orders to date."
 msgstr "Another order milestone! Take a look at your Orders Report to review your orders to date."
-
-#. translators: 1: open link to Woo.com settings, 2: open link to Woo.com
-#. tracking documentation, 3: close link tag.
-#: src/Internal/Admin/Notes/TrackingOptIn.php:53
-msgid "Gathering usage data allows us to improve WooCommerce. Your store will be considered as we evaluate new features, judge the quality of an update, or determine if an improvement makes sense. You can always visit the %1$sSettings%3$s and choose to stop sharing data. %2$sRead more%3$s about what data we collect."
-msgstr "Gathering usage data allows us to improve WooCommerce. Your store will be considered as we evaluate new features, judge the quality of an update, or determine if an improvement makes sense. You can always visit the %1$sSettings%3$s and choose to stop sharing data. %2$sRead more%3$s about what data we collect."
 
 #: src/Internal/Admin/Notes/NewSalesRecord.php:150
 msgid "New sales record!"
@@ -11088,13 +11499,13 @@ msgstr "Postcode"
 msgid "Order not editable"
 msgstr "Order not editable"
 
-#: includes/admin/helper/class-wc-helper-orders-api.php:72
-msgid "You do not have permission to install plugins."
-msgstr "You do not have permission to install plugins."
-
 #: includes/class-wc-api.php:91
 msgid "The Rest API is unavailable."
 msgstr "The Rest API is unavailable."
+
+#: includes/admin/helper/class-wc-helper-orders-api.php:72
+msgid "You do not have permission to install plugins."
+msgstr "You do not have permission to install plugins."
 
 #: includes/admin/views/html-notice-wp-php-minimum-requirements.php:17
 msgid "Learn how to upgrade"
@@ -11879,20 +12290,6 @@ msgstr[1] ""
 msgid "Unable to claim actions. Database error."
 msgstr "Unable to claim actions. Database error."
 
-#. translators: %s: action ID
-#. translators: %s is the action ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:653
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:745
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:776
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1085
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1143
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:515
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:534
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:564
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:987
-msgid "Unidentified action %s"
-msgstr "Unidentified action %s"
-
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:101
 msgid "Unable to save action."
 msgstr "Unable to save action."
@@ -11926,6 +12323,20 @@ msgstr "action started"
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:142
 msgid "action canceled"
 msgstr "action canceled"
+
+#. translators: %s: action ID
+#. translators: %s is the action ID
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:653
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:745
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:776
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1085
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1143
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:515
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:534
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:564
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:987
+msgid "Unidentified action %s"
+msgstr "Unidentified action %s"
 
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:72
 msgid "action created"
@@ -31211,10 +31622,6 @@ msgstr "Never"
 msgid "Enter the number of days before a download link expires, or leave blank."
 msgstr "Enter the number of days before a download link expires, or leave blank."
 
-#: src/Admin/Features/ProductBlockEditor/Init.php:244
-msgid "Standard product"
-msgstr "Standard product"
-
 #: includes/admin/meta-boxes/views/html-product-data-general.php:181
 #: includes/admin/views/html-bulk-edit-product.php:78
 #: includes/admin/views/html-quick-edit-product.php:54
@@ -31542,6 +31949,10 @@ msgstr "This tool will recount product terms - useful when changing your setting
 #: src/Internal/Admin/ProductReviews/ReviewsListTable.php:1321
 msgid "Empty Trash"
 msgstr "Empty Bin"
+
+#: src/Admin/Features/ProductBlockEditor/Init.php:244
+msgid "Standard product"
+msgstr "Standard product"
 
 #: includes/widgets/class-wc-widget-product-categories.php:39
 #: assets/client/blocks/featured-category.js:8
